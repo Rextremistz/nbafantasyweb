@@ -1,0 +1,6 @@
+*Set urls*
+set urls.py view in myapp.urls
+create index.html template in templates folder
+render request in myapp.views.py to templates.index.html
+include myapp.urls in nbafantasyweb.urls.py
+set settings.py template to base directory 'templates' folder
