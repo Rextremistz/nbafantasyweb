@@ -2,14 +2,22 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.contrib.auth.models import User, auth
 from django.contrib import messages
-from .models import Player
+from .models import Player, Season
 
 # Create your views here.
 
 
 def index(request):
     players = Player.objects.all()
-    return render(request, 'index.html', {'players': players})
+
+    y1 = Season()
+    y1.season = "2019-2020"
+    y2 = Season()
+    y2.season = "2018-2019"
+    y3 = Season()
+    y3.season = "2017-2018"
+
+    return render(request, 'index.html', {'players': players, 'y1': y1, 'y2': y2, 'y3': y3})
 
 
 def register(request):
