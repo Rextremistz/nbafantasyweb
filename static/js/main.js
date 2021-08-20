@@ -1,29 +1,26 @@
-$(function() {
+$(document).ready(function () {
+  $('#example').DataTable({
+    "ajax" : {
+      "url" : "./static/data/fantasy.json",
+      "dataSrc" : "players"
+    },
 
-  $('.js-check-all').on('click', function() {
+    'columns' : [
+      {'data':'name'},
+      {'data':'y1_points'},
+      {'data':'y2_points'},
+      {'data':'y3_points'},
+      {'data':'y1_average'},
+      {'data':'y2_average'},
+      {'data':'y3_average'},
+      {'data':'y1_games'},
+      {'data':'y2_games'},
+      {'data':'y3_games'},
+      {'data':'y1_price'},
+      {'data':'y2_price'},
+      {'data':'y3_price'},
+    ]
 
-  	if ( $(this).prop('checked') ) {
-	  	$('th input[type="checkbox"]').each(function() {
-	  		$(this).prop('checked', true);
-        $(this).closest('tr').addClass('active');
-	  	})
-  	} else {
-  		$('th input[type="checkbox"]').each(function() {
-	  		$(this).prop('checked', false);
-        $(this).closest('tr').removeClass('active');
-	  	})
-  	}
 
   });
-
-  $('th[scope="row"] input[type="checkbox"]').on('click', function() {
-    if ( $(this).closest('tr').hasClass('active') ) {
-      $(this).closest('tr').removeClass('active');
-    } else {
-      $(this).closest('tr').addClass('active');
-    }
-  });
-
-    
-
-});
+} );
