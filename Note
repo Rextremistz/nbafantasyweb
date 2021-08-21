@@ -9,5 +9,5 @@ set settings.py template to base directory 'templates' folder
 data is truncated, need to delete headers in csv
 
 
-*Need changes*
-style in css file rather than on html
+styling
+add header
