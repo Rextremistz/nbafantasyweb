@@ -7,8 +7,16 @@ $(document).ready(function () {
 
     "lengthMenu": [[20, 50, 100, -1], [20, 50, 100, "All"]],
 
+    order : [[4,'desc']],
+    pagingType : 'full_numbers',
+
     'columns': [
+      { 'data': 'id', 'render':function(data){
+        return '<img src= "https://cdn.nba.com/headshots/nba/latest/260x190/' + data + '.png" height = "47.5" width = "65"/>';
+      }},
       { 'data': 'name' },
+      { 'data': 'team' },
+      { 'data': 'position' },
       { 'data': 'y1_points' },
       { 'data': 'y2_points' },
       { 'data': 'y3_points' },
@@ -22,40 +30,37 @@ $(document).ready(function () {
       { 'data': 'y2_price' },
       { 'data': 'y3_price' },
     ],
+    // "initComplete" : function () {
+    //   var r = $('#mtable tfoot tr');
+    //   r.find('th').each(function () {
+    //     $(this).css('padding', 8);
+    //   });
+    //   $('#mtable tfoot').append(r);
 
-    stateSave: true
+    //   $(this).css('text-align', 'center');
+    // },
   });
 
-  initComplete: (function () {
-    var r = $('#mtable tfoot tr');
-    r.find('th').each(function () {
-      $(this).css('padding', 8);
-    });
-    $('#mtable thead').append(r);
-    $(this).css('text-align', 'center');
-  });
+  // searchbox on top of column
+  // $('#mtable tfoot th').each(function () {
+  //   var title = $(this).text();
+  //   $(this).html('<input type="text"/>'); //placeholder = "Search ' + title + '"
+  // });
 
-  $('#mtable thead th').each(function () {
-    var title = $(this).text();
-    $(this).html('<input type="text"/>'); //placeholder = "Search ' + title + '"
-  });
+  // table.columns().every(function () {
+  //   var that = this;
+  //   $('input', this.footer()).on('keyup change', function () {
+  //     if (that.search() !== this.value) {
+  //       that
+  //         .search(this.value)
+  //         .draw();
+  //     }
+  //   });
 
-  table.columns().every(function () {
-    var that = this;
-    $('input', this.header()).on('keyup change', function () {
-      if (that.search() !== this.value) {
-        that
-          .search(this.value)
-          .draw();
-      }
-
-
-    });
-
-    $('input', this.header()).on('click', function (e) { //stop sorting order
-      e.stopPropagation();
-    });
-  });
+  //   $('input', this.header()).on('click', function (e) { //stop sorting order
+  //     e.stopPropagation();
+  //   });
+  // });
 
 
 

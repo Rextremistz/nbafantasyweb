@@ -8,6 +8,9 @@ set settings.py template to base directory 'templates' folder
 
 data is truncated, need to delete headers in csv
 
+multi_filter on datatable.net
 
 styling
 add header
+adjust data decimals
+select players and sum their points (checkboxes)

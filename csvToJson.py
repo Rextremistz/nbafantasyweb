@@ -17,10 +17,6 @@ with open(csvFilePath) as csvFile:
 root = {}
 root['players'] = data
 
-# write data to a json file
-# with open(jsonFilePath, "w") as jsonFile:
-#     jsonFile.write(json.dumps(root, indent=4))
-
 base = Path('./static/data')
 jsonFilePath = base / "fantasy.json"
 base.mkdir(exist_ok=True)
