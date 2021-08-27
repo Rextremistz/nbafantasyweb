@@ -11,6 +11,9 @@ data is truncated, need to delete headers in csv
 multi_filter on datatable.net
 
 styling
-add header
-adjust data decimals
+
 select players and sum their points (checkboxes)
+double column sorting
+column filtering
+
+click into player personal season day to day points
