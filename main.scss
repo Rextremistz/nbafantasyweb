@@ -1,0 +1,80 @@
+.content-table {
+    border-collapse:collapse;
+    overflow:hidden;
+}
+
+//header
+.content-table thead tr {
+    font-size:0.1em;
+    text-align: center;
+}
+
+//sorting header
+.content-table thead th.sorting {
+    font-size:0.1em;
+    vertical-align: middle;
+}
+
+.player_col{
+    text-align: left;
+}
+
+.team_col{
+    text-align: left;
+}
+
+.position_col{
+    text-align: left;
+}
+
+.stats_col{
+}
+
+
+.dataTables_filter {
+    float: left;
+    padding-left: 50px;
+    font-size: 0.2em;
+
+}
+
+.dataTables_length {
+    float: left;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 0.2em;
+}
+
+.dataTables_paginate {
+    float: left;
+    font-size: 0.2em;
+}
+
+//data
+.content-table tbody tr td {
+    font-size:0.3em;
+}
+
+// selectable list
+.form-control.my-1 {
+    font-size:0.2em;
+}
+
+.dataTable > thead > tr > th[class*="sort"]:after,
+.dataTable > thead > tr > th[class*="sort"]:before
+{
+    content: "" !important;
+}
+// table.dataTable thead>tr>th.sorting_asc,
+// table.dataTable thead>tr>th.sorting_desc,
+// table.dataTable thead>tr>th.sorting,
+// table.dataTable thead>tr>td.sorting_asc,
+// table.dataTable thead>tr>td.sorting_desc,
+// table.dataTable thead>tr>td.sorting{
+//     background: none;
+//     padding-right: inherit;
+//     content: none;
+//  	}
+
+
+@import "./node_modules/bootstrap/scss/bootstrap";

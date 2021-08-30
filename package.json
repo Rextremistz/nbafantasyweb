@@ -1,0 +1,22 @@
+{
+  "name": "nbafantasyweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rextremistz/nbafantasyweb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rextremistz/nbafantasyweb/issues"
+  },
+  "homepage": "https://github.com/Rextremistz/nbafantasyweb#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  }
+}
