@@ -14,11 +14,12 @@
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
 
 
+
     <!-- CSS only -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.11.0/css/dataTables.bootstrap5.min.css">
-
+    <script src="https://kit.fontawesome.com/41b1ee5782.js" crossorigin="anonymous"></script>
 
 
 
@@ -30,44 +31,56 @@
 <body>
     <div class='content-table'>
         <div class='container-fluid mt-4 mb-4'>
-                <table id="mtable" class="table table-hover align-middle" style="width:100%">
-                    <thead>
-                        <tr class=>
-                            <th colspan="1" rowspan="2"></th>
-                            <th colspan="1" rowspan="2">Player</th>
-                            <th colspan="1" rowspan="2">Team</th>
-                            <th colspan="1" rowspan="2">Position</th>
-                            <th colspan="6">Points</th>
-                            <th colspan="3">Average</th>
-                            <th colspan="3">Games</th>
-                            <th colspan="3">Price</th>
-                        </tr>
-                        <tr class=>
-                            <th>{{ y1.season}}</th>
-                            <th>#</th>
-                            <th>{{ y2.season}}</th>
-                            <th>#</th>
-                            <th>{{ y3.season}}</th>
-                            <th>#</th>
-                            <th>{{ y1.season}}</th>
-                            <th>{{ y2.season}}</th>
-                            <th>{{ y3.season}}</th>
-                            <th>{{ y1.season}}</th>
-                            <th>{{ y2.season}}</th>
-                            <th>{{ y3.season}}</th>
-                            <th>{{ y1.season}}</th>
-                            <th>{{ y2.season}}</th>
-                            <th>{{ y3.season}}</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                    <tfoot>
-                        <tr>
 
-                        </tr>
-                    </tfoot>
-                </table>
+
+
+
+
+            <table id="mtable" class="table table-hover align-middle border" style="width: 100%">
+                <thead>
+                    First name: <input type="text" id="firstname"><br>
+                    <p>Your first name is: <b id='boldStuff2'></b> </p>
+                    <p> Other people's names: </p>
+
+                    <ol id="demo">
+                    </ol>
+                    <input type='button' onclick='changeText2()'   value='Submit'/>
+                    <tr>
+                        <th colspan="1" rowspan="2" style=></th>
+                        <th colspan="1" rowspan="2" style=>Player</th>
+                        <th colspan="1" rowspan="2" style=>Team</th>
+                        <th colspan="1" rowspan="2" style=>Position</th>
+                        <th colspan="6" style=>Points</th>
+                        <th colspan="3" style=>Average</th>
+                        <th colspan="3" style=>Games</th>
+                        <th colspan="3" style=>Price</th>
+                    </tr>
+                    <tr style="background-color: #f8f9fa;">
+                        <th>{{ y1.season}}</th>
+                        <th>#</th>
+                        <th>{{ y2.season}}</th>
+                        <th>#</th>
+                        <th>{{ y3.season}}</th>
+                        <th>#</th>
+                        <th>{{ y1.season}}</th>
+                        <th>{{ y2.season}}</th>
+                        <th>{{ y3.season}}</th>
+                        <th>{{ y1.season}}</th>
+                        <th>{{ y2.season}}</th>
+                        <th>{{ y3.season}}</th>
+                        <th>{{ y1.season}}</th>
+                        <th>{{ y2.season}}</th>
+                        <th>{{ y3.season}}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <tfoot>
+                    <tr>
+
+                    </tr>
+                </tfoot>
+            </table>
         </div>
     </div>
 

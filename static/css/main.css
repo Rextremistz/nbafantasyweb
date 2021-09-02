@@ -4,17 +4,25 @@
   overflow: hidden;
 }
 
-.content-table thead tr {
-  font-size: 0.1em;
-  text-align: center;
+#mtable_filter input {
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
 }
 
-.content-table thead th.sorting {
+.content-table thead tr th {
+  font-size: 0.1em;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#mtable.content-table thead th.sorting {
   font-size: 0.1em;
   vertical-align: middle;
 }
 
-.player_col {
+.name_col {
   text-align: left;
 }
 
@@ -26,26 +34,77 @@
   text-align: left;
 }
 
-.dataTables_filter {
+table.dataTable tbody tr.odd.active {
+  background-color: #acbad4 !important;
+}
+
+table.dataTable tbody tr.even.active {
+  background-color: #acbad5 !important;
+}
+
+#mtable.dataTable tbody tr.odd.active td {
+  background-color: transparent;
+}
+
+#mtable.dataTable tbody tr.even.active td {
+  background-color: transparent;
+}
+
+#mtable.dataTable tbody tr td.y1_points_col,
+#mtable.dataTable tbody tr td.y2_points_col,
+#mtable.dataTable tbody tr td.y3_points_col {
+  background-color: #fffaf0;
+}
+
+#mtable.dataTable tbody tr td.y1_rank_col,
+#mtable.dataTable tbody tr td.y2_rank_col,
+#mtable.dataTable tbody tr td.y3_rank_col {
+  background-color: #fdf5e6;
+}
+
+#mtable.dataTable tbody tr td.y1_average_col,
+#mtable.dataTable tbody tr td.y2_average_col,
+#mtable.dataTable tbody tr td.y3_average_col {
+  background-color: #fffaf0;
+}
+
+#mtable.dataTable tbody tr td.y1_games_col,
+#mtable.dataTable tbody tr td.y2_games_col,
+#mtable.dataTable tbody tr td.y3_games_col {
+  background-color: #fdf5e6;
+}
+
+#mtable.dataTable tbody tr td.y1_price_col,
+#mtable.dataTable tbody tr td.y2_price_col,
+#mtable.dataTable tbody tr td.y3_price_col {
+  background-color: #fffaf0;
+}
+
+#mtable_filter {
   float: left;
   padding-left: 50px;
   font-size: 0.2em;
 }
 
-.dataTables_length {
+#mtable_length {
   float: left;
   padding-left: 50px;
   padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 0.2em;
 }
 
-.dataTables_paginate {
+#mtable_info {
+  font-size: 0.2em;
+}
+
+#mtable_paginate {
   float: left;
   font-size: 0.2em;
 }
 
 .content-table tbody tr td {
-  font-size: 0.3em;
+  font-size: 0.1em;
 }
 
 .form-control.my-1 {
