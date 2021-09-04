@@ -1,19 +1,19 @@
 $(document).ready(function () {
-  var table = $('#mtable').DataTable({
+  var m_table = $('#mtable').DataTable({
     "ajax": {
       "url": "./static/data/fantasy.json",
       "dataSrc": "players"
     },
 
-    "dom" : "<'row'<'col-sm-12 col-md-6'f><'col-sm-12 col-md-6 your_team'>>" +
-    "<'row'<'col-sm-12 col-md-2'l>>" +
-    "<'row'<'col-sm-12 col-md-2'i>>" +
-    "<'row'<'col-sm-12'tr>>" +
-    "<'row'<'col-sm-12 col-md-7'p>>",
+    "dom": "<'row'<'col-sm-12 col-md-6'f><'col-sm-12 col-md-6 your_team'>>" +
+      "<'row'<'col-sm-12 col-md-2'l>>" +
+      "<'row'<'col-sm-12 col-md-2'i>>" +
+      "<'row'<'col-sm-12'tr>>" +
+      "<'row'<'col-sm-12 col-md-7'p>>",
 
     "lengthMenu": [[20, 50, 100, -1], [20, 50, 100, "All"]],
 
-    "language":{
+    "language": {
       "info": "Showing _START_ to _END_ of _TOTAL_ players",
       "lengthMenu": "Show _MENU_ players",
       "search": '<i class="fa fa-search"></i>',
@@ -25,7 +25,7 @@ $(document).ready(function () {
 
     'columns': [
       {
-        'data': 'id', 'render': function (player_id) {
+        'data': 'id', 'className': 'id_col', 'render': function (player_id) {
           return '<img src= "https://cdn.nba.com/headshots/nba/latest/260x190/' + player_id + '.png" height = "31.6" width = "43.3"/>';
         },
       },
@@ -51,7 +51,7 @@ $(document).ready(function () {
 
     "columnDefs": [{
       "orderable": false,
-      "targets": [0,2,3]
+      "targets": [0, 2, 3]
     }],
 
     // "createdRow": function ( row, data, index ) {//add id to each row element
@@ -81,19 +81,74 @@ $(document).ready(function () {
 
   });
 
+  // $('.dataTable').on('click', 'tbody td', function () {
 
-  $('.dataTable').on('click', 'tbody td', function() {
+  //   //get textContent of the TD
+  //   console.log('TD cell textContent : ', this.textContent)
 
-    //get textContent of the TD
-    console.log('TD cell textContent : ', this.textContent)
+  //   //get the value of the TD using the API
+  //   console.log('value by API : ', m_table.cell({ row: this.parentNode.rowIndex, column: this.cellIndex }).data());
+  // });
 
-    //get the value of the TD using the API
-    console.log('value by API : ', table.cell({ row: this.parentNode.rowIndex, column : this.cellIndex }).data());
-  });
-
-  $('#mtable tbody').on( 'click', 'tr', function () {
+  //append data to selected table
+  $('#mtable tbody').on('click', 'tr', function () {
     $(this).toggleClass('active');
 
-} );
+    var rowFromTable1 = $(this);
+    // .. Take a clone/copy of it ..
+    var clonedRowFromTable1 = rowFromTable1.clone();
+    var id = $(this).find("td.id_col")[0];
+    var name = $(this).find("td.name_col")[0];
+    var team = $(this).find("td.team_col")[0];
+    var position = $(this).find("td.position_col")[0];
+    var y1_points = $(this).find("td.y1_points_col")[0];
+    var y1_rank = $(this).find("td.y1_rank_col")[0];
+    var y1_average = $(this).find("td.y1_average_col")[0];
+    var y1_games = $(this).find("td.y1_games_col")[0];
+    var y1_price = $(this).find("td.y1_price_col")[0];
+
+    $('tbody', '#stable').append($('<tr>').addClass('selected')
+      .append($(id).addClass('s_img'))
+      .append($(name).addClass('s_data'))
+      .append($(team).addClass('s_data'))
+      .append($(position).addClass('s_data'))
+      .append($(y1_points).addClass('s_data'))
+      .append($(y1_rank).addClass('s_data'))
+      .append($(y1_average).addClass('s_data'))
+      .append($(y1_games).addClass('s_data'))
+      .append($(y1_price).addClass('s_data')));
+
+    m_table.row($(this)).remove().draw();
+
+
+  });
+
+  $('#stable tbody').on('click', 'tr', function () {
+    $(this).remove();
+  })
+
+
+  // calculate selected team
+  $('#stable thead th').each(function(i)
+  {
+      calculateColumn(i);
+  });
+
 
 });
+
+function calculateColumn(index)
+{
+    var total = 0;
+    $('#stable tbody tr').each(function()
+    {
+        var value = parseInt($('td', this).eq(index).text());
+        console.log(value)
+        if (!isNaN(value))
+        {
+            total += value;
+        }
+    });
+
+    $('#stable tfoot td').eq(index).text('Total: ' + total);
+}​

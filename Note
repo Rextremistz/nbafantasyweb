@@ -17,3 +17,34 @@ double column sorting
 column filtering
 
 click into player personal season day to day points
+
+
+// var s_table = $('#stable').DataTable({
+  //   "ajax": {
+  //     "url": "./static/data/fantasy.json",
+  //     "dataSrc": "players"
+  //   },
+
+  //   "dom": "<'row'<'col-sm-12 col-md-2'i>>" +
+  //     "<'row'<'col-sm-12'tr>>",
+
+  //   "language": {
+  //     "info": "Showing _START_ to _END_ of _TOTAL_ players",
+  //   },
+
+  //   'columns': [
+  //     {
+  //       'data': 'id', 'className':'id_col','render': function (player_id) {
+  //         return '<img src= "https://cdn.nba.com/headshots/nba/latest/260x190/' + player_id + '.png" height = "31.6" width = "43.3"/>';
+  //       },
+  //     },
+  //     { 'data': 'name', 'className': 'name_col' },
+  //     { 'data': 'team', 'className': 'team_col' },
+  //     { 'data': 'position', 'className': 'position_col' },
+  //     { 'data': 'y1_points', 'className': 'y1_points_col' },
+  //     { 'data': 'y1_rank', 'className': 'y1_rank_col' },
+  //     { 'data': 'y1_average', 'className': 'y1_average_col' },
+  //     { 'data': 'y1_games', 'className': 'y1_games_col' },
+  //     { 'data': 'y1_price', 'className': 'y1_price_col' },
+  //   ],
+  // });

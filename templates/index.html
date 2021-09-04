@@ -29,60 +29,77 @@
 </head>
 
 <body>
-    <div class='content-table'>
-        <div class='container-fluid mt-4 mb-4'>
-
-
-
-
-
-            <table id="mtable" class="table table-hover align-middle border" style="width: 100%">
-                <thead>
-                    First name: <input type="text" id="firstname"><br>
-                    <p>Your first name is: <b id='boldStuff2'></b> </p>
-                    <p> Other people's names: </p>
-
-                    <ol id="demo">
-                    </ol>
-                    <input type='button' onclick='changeText2()'   value='Submit'/>
-                    <tr>
-                        <th colspan="1" rowspan="2" style=></th>
-                        <th colspan="1" rowspan="2" style=>Player</th>
-                        <th colspan="1" rowspan="2" style=>Team</th>
-                        <th colspan="1" rowspan="2" style=>Position</th>
-                        <th colspan="6" style=>Points</th>
-                        <th colspan="3" style=>Average</th>
-                        <th colspan="3" style=>Games</th>
-                        <th colspan="3" style=>Price</th>
-                    </tr>
-                    <tr style="background-color: #f8f9fa;">
-                        <th>{{ y1.season}}</th>
-                        <th>#</th>
-                        <th>{{ y2.season}}</th>
-                        <th>#</th>
-                        <th>{{ y3.season}}</th>
-                        <th>#</th>
-                        <th>{{ y1.season}}</th>
-                        <th>{{ y2.season}}</th>
-                        <th>{{ y3.season}}</th>
-                        <th>{{ y1.season}}</th>
-                        <th>{{ y2.season}}</th>
-                        <th>{{ y3.season}}</th>
-                        <th>{{ y1.season}}</th>
-                        <th>{{ y2.season}}</th>
-                        <th>{{ y3.season}}</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-                <tfoot>
-                    <tr>
-
-                    </tr>
-                </tfoot>
-            </table>
+    <div class='container  mt-4 mb-4'>
+        <div class='sidebar'>
+            <div class="logo_details">
+                <i class="fa fa-bars" id="btn"></i>
+                <div class="logo_name">My Team</div>
+            </div>
+            <div class="selected_table">
+                <table id="stable" class="table table-hover align-middle border-0">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Player</th>
+                            <th>Team</th>
+                            <th>P</th>
+                            <th>Points</th>
+                            <th>Rank</th>
+                            <th>Average</th>
+                            <th>Games</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                    <tfoot>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+        <div class='flex-container'>
+            <div class='content-table'>
+                <div class="main_table">
+                    <table id="mtable" class="table table-hover align-middle border">
+                        <thead>
+                            <tr>
+                                <th colspan="1" rowspan="2" style=></th>
+                                <th colspan="1" rowspan="2" style=>Player</th>
+                                <th colspan="1" rowspan="2" style=>Team</th>
+                                <th colspan="1" rowspan="2" style=>Position</th>
+                                <th colspan="6" style=>Points</th>
+                                <th colspan="3" style=>Average</th>
+                                <th colspan="3" style=>Games</th>
+                                <th colspan="3" style=>Price</th>
+                            </tr>
+                            <tr>
+                                <th>{{ y1.season}}</th>
+                                <th>#</th>
+                                <th>{{ y2.season}}</th>
+                                <th>#</th>
+                                <th>{{ y3.season}}</th>
+                                <th>#</th>
+                                <th>{{ y1.season}}</th>
+                                <th>{{ y2.season}}</th>
+                                <th>{{ y3.season}}</th>
+                                <th>{{ y1.season}}</th>
+                                <th>{{ y2.season}}</th>
+                                <th>{{ y3.season}}</th>
+                                <th>{{ y1.season}}</th>
+                                <th>{{ y2.season}}</th>
+                                <th>{{ y3.season}}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                        <tfoot>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
+
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -94,9 +111,16 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>    <script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap4.min.js"></script> -->
 
     <script src="{% static 'js/main.js' %}"></script>
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+
+        btn.onclick = function () {
+            sidebar.classList.toggle("open");
+        }
 
 
-
+    </script>
 </body>
 
 </html>
