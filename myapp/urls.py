@@ -1,12 +1,10 @@
+from django.conf.urls import url
 from django.urls import path
 from . import views
+from .views import chart
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('counter', views.counter, name='counter'),
-    path('register', views.register, name='register'),
-    path('login', views.login, name='login'),
-    path('logout', views.logout, name='logout'),
-    path('post/<str:pk>', views.post, name='post'),
-
+    # path('', TaskList.as_view(), name='task_list_url')
+    url(r'^chart/', chart, name='chart'),
 ]

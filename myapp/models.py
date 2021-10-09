@@ -28,3 +28,11 @@ class Season(models.Model):
 
     def __str__(self):
         return self.season
+
+
+class PerGamePoints(models.Model):
+    player_id = models.CharField(max_length=100, blank=True, null=True)
+    points = models.FloatField(blank=True, null=True)
+
+    def __str__(self):
+        return self.player_id

@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp',
-    'fontawesome-free',
 ]
 
 MIDDLEWARE = [
@@ -81,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'nbafantasyweb_db',
         'USER': ***REMOVED***,
-        'PASSWORD': '',
+        'PASSWORD': ***REMOVED***,
         'HOST': 'localhost'
     }
 }

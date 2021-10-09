@@ -4,39 +4,34 @@
     box-sizing: border-box;
 }
 body{
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-}
-
-.flex-container {
-    border-collapse: collapse;
+    height: 100%;
     padding:10px;
-    margin:20px;
 }
 
-.content-table{
+.main_section {
+    border: 5px solid yellow;
     display: flex;
-    justify-content: center;
-}
+    flex-wrap: wrap;
+  }
+
+.data_section {
+    border: 5px solid red;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 25%;
+  }
+
+.main_table {
+    border: 5px solid green;
+    margin-right:70px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 70%;
+  }
 
 #mtable{
     table-layout: fixed; // ***********add this
 }
-
-// .flex-container {
-//     display: flex;
-// }
-
-// .flex-child {
-//     flex: 1;
-//     border: 2px solid yellow;
-// }
-
-// .flex-child:first-child {
-//     margin-right: 20px;
-// }
-
 
 //search box
 #mtable_filter input {
@@ -72,8 +67,6 @@ body{
     text-align: left;
 }
 
-.stats_col{
-}
 
 table.dataTable tbody tr.odd.active {
     background-color:#acbad4
@@ -96,31 +89,31 @@ table.dataTable tbody tr.even.active {
 #mtable.dataTable tbody tr td.y1_points_col,
 #mtable.dataTable tbody tr td.y2_points_col,
 #mtable.dataTable tbody tr td.y3_points_col {
-    background-color: #fdc500;
+    background-color: #f4a261;
 }
 
 #mtable.dataTable tbody tr td.y1_rank_col,
 #mtable.dataTable tbody tr td.y2_rank_col,
 #mtable.dataTable tbody tr td.y3_rank_col {
-    background-color: #ffd500;
+    background-color: #e9c46a;
 }
 
 #mtable.dataTable tbody tr td.y1_average_col,
 #mtable.dataTable tbody tr td.y2_average_col,
 #mtable.dataTable tbody tr td.y3_average_col {
-    background-color: #fdc500;
+    background-color: #f4a261;
 }
 
 #mtable.dataTable tbody tr td.y1_games_col,
 #mtable.dataTable tbody tr td.y2_games_col,
 #mtable.dataTable tbody tr td.y3_games_col {
-    background-color: #ffd500;
+    background-color: #e9c46a;
 }
 
 #mtable.dataTable tbody tr td.y1_price_col,
 #mtable.dataTable tbody tr td.y2_price_col,
 #mtable.dataTable tbody tr td.y3_price_col {
-    background-color: #fdc500;
+    background-color: #f4a261;
 }
 
 
@@ -174,7 +167,7 @@ table.dataTable tbody tr.even.active {
     right:0;
     width:80px;
     height:100%;
-    background-color: #00509d;
+    background-color: #264653;
     padding: 6px 14px;
     transition: all 0.5s ease;
     opacity: 1;
@@ -182,25 +175,60 @@ table.dataTable tbody tr.even.active {
 }
 
 .sidebar.open{
-    width: 800px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar .logo_details{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .sidebar .logo_details .logo_name {
+    height: 100%;
+    width: 300px;
+    color: #fff;
+    font-size: 10px;
+    margin: 20px 30px;
+    opacity: 0;
     display: flex;
-    height: 50px;
-    width: 100px;
-    align-items: center;
-    opacity:0
+    justify-content: space-between;
 }
 
 .sidebar.open .logo_details .logo_name{
+    height: 100%;
+    width: 300px;
+    color: #fff;
+    transition: all 0.5s ease;
+    font-size: 10px;
+    margin: 20px 30px;
     opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar.open .logo_details .logo_name .logo_points,
+.sidebar.open .logo_details .logo_name .logo_lastyear{
+    font-size: 20px;
+    padding-bottom: 10px;
+    width:90px;
+}
+
+.sidebar.open .logo_details .logo_name .logo_price{
+    font-size: 20px;
+    padding-bottom: 10px;
+    width: 75px;
 }
 
 
 .sidebar #btn{
     position: sticky;
-    color:rgb(0, 0, 0);
+    color:#fff;
     font-size: 30px;
     height: 75px;
     width: 75px;
@@ -210,41 +238,55 @@ table.dataTable tbody tr.even.active {
     cursor: pointer;
 }
 
-.sidebar #stable{
-    margin-top: 50px;
+.sidebar .selected_table{
+    margin-top:15px;
 }
 
-.sidebar .logo_details{
-    height: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.sidebar.open .selected_table{
+    margin-top:10px;
+    border: 5px solid #2a9d8f;
+    border-radius: 10px;
 }
 
-.sidebar .logo_details .logo_name{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 400;
+.sidebar .selected_table #stable{
+    color:#fff;
+
+}
+
+.sidebar.open .selected_table #stable{
+    table-layout: fixed;
+}
+
+.sidebar #stable thead tr{
+    background-color: inherit;
+}
+
+.sidebar.open #stable thead tr{
+    background-color: #2a9d8f;
+}
+
+.sidebar #stable thead tr th,
+.sidebar #stable tbody tr td,
+.sidebar #stable tfoot tr td {
+    font-size:0.1em;
+    vertical-align: middle;
+    white-space: nowrap;
     opacity:0;
-    transition: all 0.5s ease;
+    border: 0;
 }
 
-.sidebar.open .logo_details .logo_name{
-    opacity: 1;
-}
-
-.sidebar #stable thead tr th {
+.sidebar.open #stable thead tr th,
+.sidebar #stable tbody tr td,
+.sidebar.open #stable tfoot tr td {
     font-size:0.1em;
     vertical-align: middle;
     white-space: nowrap;
-    opacity:0
+    opacity:1;
+    border: 0;
 }
 
-.sidebar.open #stable thead tr th {
-    font-size:0.1em;
-    vertical-align: middle;
-    white-space: nowrap;
-    opacity:1
+#stable tbody tr.selected{
+    background: linear-gradient(#264653 97%, #2a9d8f);
 }
 
 #stable tbody tr td.s_data{
@@ -253,13 +295,17 @@ table.dataTable tbody tr.even.active {
     white-space: nowrap;
     text-overflow:ellipsis;
     opacity:0;
+    cursor: pointer;
 }
 
-#stable tbody tr td.s_img{
+
+.sidebar #stable tbody tr td.s_img{
     font-size:0.1em;
+    text-align: center;
     opacity:1;
 }
 
+//data in opened sidebar
 .sidebar.open #stable tbody tr td.s_data {
     font-size:0.1em;
     overflow: hidden;
@@ -268,7 +314,18 @@ table.dataTable tbody tr.even.active {
     opacity:1;
 }
 
+//footer in unopened sidebar
+.sidebar #stable tfoot tr {
+    font-size:0.1em;
+    opacity:0;
+}
 
-
+.sidebar.open #stable tfoot tr {
+    font-size:0.1em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    opacity:1;
+}
 
 @import "./node_modules/bootstrap/scss/bootstrap";

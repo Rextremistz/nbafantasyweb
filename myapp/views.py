@@ -1,8 +1,7 @@
-from django.shortcuts import render, redirect
-from django.http import HttpResponse
-from django.contrib.auth.models import User, auth
-from django.contrib import messages
+from django.shortcuts import render
 from .models import Player, Season
+from .utils import get_plot
+from django.views.generic import View
 
 # Create your views here.
 
@@ -17,63 +16,21 @@ def index(request):
     y3 = Season()
     y3.season = "2018-19"
 
+    # get player_id from main.js ajax
+    # player_id = request.GET.get('player_id')
+
+    # print('sent')
+    # print(player_id)
+    # print()
+
     return render(request, 'index.html', {'players': players, 'y1': y1, 'y2': y2, 'y3': y3})
 
 
-def register(request):
-    if request.method == 'POST':
-        username = request.POST['username']
-        email = request.POST['email']
-        password = request.POST['password']
-        password2 = request.POST['password2']
+# class TaskList(View):
+#     def get(self, request):
+#         return render(request, 'myapp/task_list.html')
 
-        if password == password2:
-            if User.objects.filter(email=email).exists():
-                messages.info(request, 'Email taken')
-                return redirect('register')
-            elif User.objects.filter(username=username).exists():
-                messages.info(request, 'Username taken')
-                return redirect('register')
-            else:
-                user = User.objects.create_user(
-                    username=username, email=email, password=password)
-                user.save()
-                return redirect('login')
-
-        else:
-            messages.info(request, 'Wrong password')
-            return redirect('register')
-    else:
-        return render(request, 'register.html')
-
-
-def login(request):
-    if request.method == 'POST':
-        username = request.POST['username']
-        password = request.POST['password']
-
-        user = auth.authenticate(username=username, password=password)
-
-        if user is not None:
-            auth.login(request, user)
-            return redirect('/')
-        else:
-            messages.info(request, 'Invalid')
-            return redirect('login')
-
-    else:
-        return render(request, 'login.html')
-
-
-def logout(request):
-    auth.logout(request)
-    return redirect('/')
-
-
-def counter(request):
-    posts = [1, 2, 3, 'andrew']
-    return render(request, 'counter.html', {'posts': posts})
-
-
-def post(request, pk):
-    return render(request, 'post.html', {'pk': pk})
+def chart(request):
+    player_id = request.GET.get('player_id')
+    chart = get_plot(int(player_id))
+    return render(request, 'chart.html', {'chart': chart, 'player_id': player_id})
