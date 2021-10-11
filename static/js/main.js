@@ -28,12 +28,19 @@ $(document).ready(function () {
     'columns': [
       {
         'data': 'id', 'className': 'id_col', 'render': function (player_id) {
-          return '<img src= "https://cdn.nba.com/headshots/nba/latest/260x190/' + player_id + '.png" height = "31.6" width = "43.3"/>';
+          return '<img src= "https://cdn.nba.com/headshots/nba/latest/260x190/' + player_id + '.png" height = "31.6" width = "43.3"/ class="png_image">'
         },
       },
       { 'data': 'name', 'className': 'name_col' },
       { 'data': 'team', 'className': 'team_col' },
-      { 'data': 'position', 'className': 'position_col' },
+      { 'data': 'position', 'className': 'position_col', 'render':function (pos) {
+          return '<div class="add_container">'+pos+'\
+                    <div class="overlay">\
+                      <div class="overlay_text"><i id="plus_sign" class="fa fa-plus"></i></div>\
+                    </div>\
+                  </div>';
+        }
+      },
       { 'data': 'y1_points', 'className': 'y1_points_col' },
       { 'data': 'y1_rank', 'className': 'y1_rank_col' },
       { 'data': 'y2_points', 'className': 'y2_points_col' },
@@ -76,36 +83,49 @@ $(document).ready(function () {
         });
       })
 
-      $('<button id="refresh">Refresh</button>').appendTo('div.toolbar');
+      $('<button id="refresh_btn">Refresh</button>').appendTo('div.toolbar');
 
     }
   });
 
   //toolbar and refresh
   // $("div.toolbar").html('<b>Custom tool bar! Text/images etc.</b>');
-  $('div.toolbar').on('click', 'button', function () {
-    console.log('pressed');
+  $('div.toolbar').on('click', '#refresh_btn', function () {
+    console.log('refresh btn pressed');
+    $('tbody tr','#stable').remove();//remove #stable
+    team_arr = [];
+    calculateColumn(4);
+    calculateColumn(6);
+    calculateLength(1);
+    transferCalculation();
+
     m_table.ajax.reload()
   });
 
   $('.dataTable').on('click', 'tbody td', function () {
-
+    $(this).closest('tr').toggleClass('active')
     //get textContent of the TD
     console.log('TD cell textContent : ', this.textContent)
 
     //get id of player
     var rows = m_table.rows(this).indexes();
     var player_id = m_table.cell(rows, 0).data();
-    console.log(player_id)
+    var player_name = m_table.cell(rows, 1).data();
+    var player_team = m_table.cell(rows, 2).data();
+    var player_position = m_table.cell(rows, 3).data();
+    console.log(player_id + ' ' + player_name)
 
     $.ajax({
       url: 'chart',
       type: 'get',
       data: {
-        player_id
+        'player_id': player_id,
+        'player_name': player_name,
+        'player_team': player_team,
+        'player_position': player_position,
       },
       success: function(response) {
-        console.log('sucess')
+        console.log('get player id success')
         $('#ajaxSection').html(response);
       },
 
@@ -117,8 +137,8 @@ $(document).ready(function () {
   //setting team array
   var team_arr = []
 
-  $('#mtable tbody').on('click', 'tr', function () {
-    var rowFromTable1 = $(this);
+  $('#mtable tbody').on('click', 'tr td.position_col #plus_sign', function () {
+    var rowFromTable1 = $(this).closest('tr');
     var clonedRowFromTable1 = rowFromTable1.clone();
     var id = clonedRowFromTable1.find("td.id_col")[0];
     var name = clonedRowFromTable1.find("td.name_col")[0];
@@ -130,7 +150,6 @@ $(document).ready(function () {
     //limit to 12 players
     if (team_arr.length < 12) {
       contains(team_arr, $(name)[0].innerText);
-      $(this).toggleClass('active')
     }
 
     //if team array row does not contain player name, append to array and stable

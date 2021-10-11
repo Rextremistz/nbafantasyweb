@@ -16,21 +16,14 @@ def index(request):
     y3 = Season()
     y3.season = "2018-19"
 
-    # get player_id from main.js ajax
-    # player_id = request.GET.get('player_id')
-
-    # print('sent')
-    # print(player_id)
-    # print()
-
     return render(request, 'index.html', {'players': players, 'y1': y1, 'y2': y2, 'y3': y3})
 
 
-# class TaskList(View):
-#     def get(self, request):
-#         return render(request, 'myapp/task_list.html')
-
 def chart(request):
     player_id = request.GET.get('player_id')
+    player_name = request.GET.get('player_name')
+    player_team = request.GET.get('player_team')
+    player_position = request.GET.get('player_position')
     chart = get_plot(int(player_id))
-    return render(request, 'chart.html', {'chart': chart, 'player_id': player_id})
+    return render(request, 'chart.html', {'chart': chart, 'player_id': player_id, 'player_name': player_name,
+                                          'player_team': player_team, 'player_position': player_position})

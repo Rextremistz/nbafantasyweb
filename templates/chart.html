@@ -1,5 +1,32 @@
-<!-- {% if chart %} -->
-<div id = 'scatter'>
-    <img src = 'data:image/png;base64, {{chart|safe}}'>
+{% if chart %}
+<div class = 'ajaxData'>
+    <div class = 'player_info'>
+        <div class = 'player_name'>{{ player_name }}</div>
+        <div class = 'player_team'>{{ player_team }}</div>
+        <div class = 'player_position'>{{ player_position }}</div>
+    </div>
+    <div class = 'scatter_chart'><img src = 'data:image/png;base64, {{chart|safe}}'></div>
 </div>
-<!-- {% endif %} -->
+{% else %}
+<div class = 'player_info'>
+    Click on player to view per game points.<br>
+    Click + to add to your team.
+</div>
+{% endif %}
+
+<style>
+.ajaxData {
+    display: grid;
+    justify-items: center;
+}
+
+.player_info {
+    display: grid;
+    margin-top: 50px;
+    justify-items: center;
+}
+
+.player_name {
+    font-size: 30px;
+}
+</style>

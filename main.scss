@@ -9,20 +9,46 @@ body{
 }
 
 .main_section {
-    border: 5px solid yellow;
+    // border: 5px solid yellow;
     display: flex;
     flex-wrap: wrap;
   }
 
 .data_section {
-    border: 5px solid red;
+    border-right: 0.5px solid #dee2e6;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 25%;
-  }
+    margin-right: 10px;
+}
+
+.data_section .ajaxSection {
+    display: grid;
+}
+
+#refresh_btn {
+    display: inline-block;
+    padding: .3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color: #264653;
+    background-color:white;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+#refresh_btn:hover{
+    background-color:#264653;
+    color: white;
+}
+
 
 .main_table {
-    border: 5px solid green;
+    // border: 5px solid green;
     margin-right:70px;
     flex-grow: 1;
     flex-shrink: 1;
@@ -63,25 +89,26 @@ body{
     text-align: left;
 }
 
-.position_col{
+#mtable.dataTable tbody tr td.position_col{
     text-align: left;
+    border-right: 0.5px solid #dee2e6;
 }
 
 
-table.dataTable tbody tr.odd.active {
+table.dataTable tbody tr.odd.active td.id_col {
     background-color:#acbad4
    }
 
-table.dataTable tbody tr.even.active {
+table.dataTable tbody tr.even.active td.id_col {
     background-color:#acbad5
    }
 
 //make transparent when clicking
-#mtable.dataTable tbody tr.odd.active td{
-    background-color: transparent;
+#mtable.dataTable tbody tr.odd.active td.id_col {
+    background-color: #264653;
 }
-#mtable.dataTable tbody tr.even.active td{
-    background-color: transparent;
+#mtable.dataTable tbody tr.even.active td.id_col {
+    background-color: #264653;
 }
 
 
@@ -89,31 +116,74 @@ table.dataTable tbody tr.even.active {
 #mtable.dataTable tbody tr td.y1_points_col,
 #mtable.dataTable tbody tr td.y2_points_col,
 #mtable.dataTable tbody tr td.y3_points_col {
-    background-color: #f4a261;
+    background-color: transparent;
 }
 
-#mtable.dataTable tbody tr td.y1_rank_col,
-#mtable.dataTable tbody tr td.y2_rank_col,
 #mtable.dataTable tbody tr td.y3_rank_col {
-    background-color: #e9c46a;
+    background-color: transparent;
+    border-right: 0.5px solid #dee2e6;
 }
 
-#mtable.dataTable tbody tr td.y1_average_col,
-#mtable.dataTable tbody tr td.y2_average_col,
+
 #mtable.dataTable tbody tr td.y3_average_col {
-    background-color: #f4a261;
+    background-color: transparent;
+    border-right: 0.5px solid #dee2e6;
 }
 
-#mtable.dataTable tbody tr td.y1_games_col,
-#mtable.dataTable tbody tr td.y2_games_col,
 #mtable.dataTable tbody tr td.y3_games_col {
-    background-color: #e9c46a;
+    background-color: transparent;
+    border-right: 0.5px solid #dee2e6;
 }
 
-#mtable.dataTable tbody tr td.y1_price_col,
-#mtable.dataTable tbody tr td.y2_price_col,
 #mtable.dataTable tbody tr td.y3_price_col {
-    background-color: #f4a261;
+    background-color: transparent;
+    border-right: 0.5px solid #dee2e6;
+}
+
+
+#mtable.dataTable tbody tr:hover > td.id_col,
+#mtable.dataTable tbody tr:hover > td.name_col,
+#mtable.dataTable tbody tr:hover > td.team_col,
+#mtable.dataTable tbody tr:hover > td.position_col{
+    background-color:#2a9d8f ;
+}
+
+
+.add_container{
+    position: relative;
+    width: 100%;
+}
+
+.png_image{
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+#mtable.dataTable tbody tr:hover .overlay {
+opacity: 1;
+}
+
+.overlay_text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+right: 0;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
 }
 
 
@@ -139,6 +209,8 @@ table.dataTable tbody tr.even.active {
     float: left;
     font-size: 0.2em;
 }
+
+
 
 //data
 #mtable tbody tr td {
@@ -303,6 +375,7 @@ table.dataTable tbody tr.even.active {
     font-size:0.1em;
     text-align: center;
     opacity:1;
+    cursor: pointer;
 }
 
 //data in opened sidebar

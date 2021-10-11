@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'nbafantasyweb_db',
-        'USER': ***REMOVED***,
-        'PASSWORD': ***REMOVED***,
+        'USER': os.environ.get('DB_USER'),
+        'PASSWORD': os.environ.get('DB_PASS'),
         'HOST': 'localhost'
     }
 }
