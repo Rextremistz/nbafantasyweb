@@ -2,7 +2,7 @@ import csv
 import json
 from pathlib import Path
 
-csvFilePath = "fantasy_tableforsql.csv"
+csvFilePath = "fantasy_tableforjson.csv"
 
 # read csv and add the data to a dictionary
 # create list

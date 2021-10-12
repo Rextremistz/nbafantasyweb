@@ -1,10 +1,11 @@
 import csv
 import mysql.connector
+import os
 
 mydb = mysql.connector.connect(
     host="localhost",
-    user=***REMOVED***,
-    passwd=***REMOVED***,
+    user=os.environ.get('DB_USER'),
+    passwd=os.environ.get('DB_PASS'),
     database="nbafantasyweb_db"
 )
 
