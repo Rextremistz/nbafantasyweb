@@ -87,8 +87,8 @@
         {
             "id": "1629678",
             "name": "Admiral Schofield",
-            "team": "Oklahoma City Thunder",
-            "position": "G-F",
+            "team": "Orlando Magic",
+            "position": "F",
             "y1_points": "0.0",
             "y1_rank": "416",
             "y2_points": "241.0",
@@ -255,7 +255,7 @@
         {
             "id": "1628993",
             "name": "Alize Johnson",
-            "team": "Brooklyn Nets",
+            "team": "Chicago Bulls",
             "position": "F",
             "y1_points": "334.0",
             "y1_rank": "335",
@@ -612,7 +612,7 @@
         {
             "id": "202340",
             "name": "Avery Bradley",
-            "team": "Houston Rockets",
+            "team": "Golden State Warriors",
             "position": "G",
             "y1_points": "418.0",
             "y1_rank": "317",
@@ -864,7 +864,7 @@
         {
             "id": "202954",
             "name": "Brad Wanamaker",
-            "team": "Charlotte Hornets",
+            "team": "Indiana Pacers",
             "position": "G",
             "y1_points": "1026.5",
             "y1_rank": "230",
@@ -990,7 +990,7 @@
         {
             "id": "1628968",
             "name": "Brian Bowen II",
-            "team": "Indiana Pacers",
+            "team": "Minnesota Timberwolves",
             "position": "F-G",
             "y1_points": "6.0",
             "y1_rank": "413",
@@ -1095,7 +1095,7 @@
         {
             "id": "1627854",
             "name": "Bryn Forbes",
-            "team": "Milwaukee Bucks",
+            "team": "San Antonio Spurs",
             "position": "G",
             "y1_points": "1247.0",
             "y1_rank": "193",
@@ -1179,7 +1179,7 @@
         {
             "id": "1628997",
             "name": "Caleb Martin",
-            "team": "Charlotte Hornets",
+            "team": "Miami Heat",
             "position": "F",
             "y1_points": "763.5",
             "y1_rank": "274",
@@ -1368,7 +1368,7 @@
         {
             "id": "1628990",
             "name": "Chandler Hutchison",
-            "team": "San Antonio Spurs",
+            "team": "Phoenix Suns",
             "position": "F-G",
             "y1_points": "285.5",
             "y1_rank": "345",
@@ -1557,7 +1557,7 @@
         {
             "id": "1629735",
             "name": "Chris Silva",
-            "team": "Sacramento Kings",
+            "team": "Minnesota Timberwolves",
             "position": "F",
             "y1_points": "104.5",
             "y1_rank": "382",
@@ -1809,7 +1809,7 @@
         {
             "id": "1628391",
             "name": "D.J. Wilson",
-            "team": "Houston Rockets",
+            "team": "Oklahoma City Thunder",
             "position": "F",
             "y1_points": "493.5",
             "y1_rank": "306",
@@ -1830,7 +1830,7 @@
         {
             "id": "1629610",
             "name": "DaQuan Jeffries",
-            "team": "San Antonio Spurs",
+            "team": "Atlanta Hawks",
             "position": "G-F",
             "y1_points": "368.5",
             "y1_rank": "327",
@@ -1914,7 +1914,7 @@
         {
             "id": "1628422",
             "name": "Damyean Dotson",
-            "team": "Cleveland Cavaliers",
+            "team": "San Antonio Spurs",
             "position": "G",
             "y1_points": "700.5",
             "y1_rank": "285",
@@ -2083,7 +2083,7 @@
             "id": "1629647",
             "name": "Darius Bazley",
             "team": "Oklahoma City Thunder",
-            "position": "F-G",
+            "position": "F",
             "y1_points": "1720.0",
             "y1_rank": "135",
             "y2_points": "980.0",
@@ -2271,7 +2271,7 @@
         {
             "id": "201599",
             "name": "DeAndre Jordan",
-            "team": "Brooklyn Nets",
+            "team": "Los Angeles Lakers",
             "position": "C",
             "y1_points": "1658.5",
             "y1_rank": "141",
@@ -2481,7 +2481,7 @@
         {
             "id": "1628372",
             "name": "Dennis Smith Jr.",
-            "team": "Detroit Pistons",
+            "team": "Portland Trail Blazers",
             "position": "G",
             "y1_points": "555.5",
             "y1_rank": "302",
@@ -2502,7 +2502,7 @@
         {
             "id": "1627756",
             "name": "Denzel Valentine",
-            "team": "Chicago Bulls",
+            "team": "Cleveland Cavaliers",
             "position": "G",
             "y1_points": "1032.0",
             "y1_rank": "229",
@@ -2565,7 +2565,7 @@
         {
             "id": "1627884",
             "name": "Derrick Jones Jr.",
-            "team": "Portland Trail Blazers",
+            "team": "Chicago Bulls",
             "position": "F",
             "y1_points": "1210.5",
             "y1_rank": "196",
@@ -2607,8 +2607,8 @@
         {
             "id": "1628476",
             "name": "Derrick Walton Jr.",
-            "team": "None",
-            "position": "None",
+            "team": "Detroit Pistons",
+            "position": "G",
             "y1_points": "0.0",
             "y1_rank": "416",
             "y2_points": "171.5",
@@ -2691,7 +2691,7 @@
         {
             "id": "1629719",
             "name": "Devontae Cacok",
-            "team": "Los Angeles Lakers",
+            "team": "Brooklyn Nets",
             "position": "F",
             "y1_points": "125.5",
             "y1_rank": "376",
@@ -3111,7 +3111,7 @@
         {
             "id": "202734",
             "name": "E'Twaun Moore",
-            "team": "Phoenix Suns",
+            "team": "Orlando Magic",
             "position": "G",
             "y1_points": "364.5",
             "y1_rank": "328",
@@ -3426,8 +3426,8 @@
         {
             "id": "1628412",
             "name": "Frank Mason",
-            "team": "None",
-            "position": "None",
+            "team": "Orlando Magic",
+            "position": "G",
             "y1_points": "68.0",
             "y1_rank": "392",
             "y2_points": "176.0",
@@ -3447,7 +3447,7 @@
         {
             "id": "1628373",
             "name": "Frank Ntilikina",
-            "team": "New York Knicks",
+            "team": "Dallas Mavericks",
             "position": "G",
             "y1_points": "249.5",
             "y1_rank": "354",
@@ -3552,7 +3552,7 @@
         {
             "id": "1629726",
             "name": "Garrison Mathews",
-            "team": "Washington Wizards",
+            "team": "Boston Celtics",
             "position": "G",
             "y1_points": "744.0",
             "y1_rank": "277",
@@ -3930,7 +3930,7 @@
         {
             "id": "1628385",
             "name": "Harry Giles III",
-            "team": "Portland Trail Blazers",
+            "team": "LA Clippers",
             "position": "F-C",
             "y1_points": "419.0",
             "y1_rank": "316",
@@ -4077,7 +4077,7 @@
         {
             "id": "1628392",
             "name": "Isaiah Hartenstein",
-            "team": "Cleveland Cavaliers",
+            "team": "LA Clippers",
             "position": "C-F",
             "y1_points": "867.5",
             "y1_rank": "255",
@@ -4371,7 +4371,7 @@
         {
             "id": "1626143",
             "name": "Jahlil Okafor",
-            "team": "Detroit Pistons",
+            "team": "Atlanta Hawks",
             "position": "C-F",
             "y1_points": "341.0",
             "y1_rank": "332",
@@ -4707,7 +4707,7 @@
         {
             "id": "1629633",
             "name": "Jarrett Culver",
-            "team": "Minnesota Timberwolves",
+            "team": "Memphis Grizzlies",
             "position": "G-F",
             "y1_points": "471.0",
             "y1_rank": "310",
@@ -5400,8 +5400,8 @@
         {
             "id": "1627982",
             "name": "Josh Gray",
-            "team": "None",
-            "position": "None",
+            "team": "New Orleans Pelicans",
+            "position": "G",
             "y1_points": "0.0",
             "y1_rank": "416",
             "y2_points": "1.0",
@@ -5568,7 +5568,7 @@
         {
             "id": "1627823",
             "name": "Juancho Hernangomez",
-            "team": "Minnesota Timberwolves",
+            "team": "Boston Celtics",
             "position": "F",
             "y1_points": "864.0",
             "y1_rank": "258",
@@ -5673,7 +5673,7 @@
         {
             "id": "1629713",
             "name": "Justin James",
-            "team": "Sacramento Kings",
+            "team": "Cleveland Cavaliers",
             "position": "G-F",
             "y1_points": "292.5",
             "y1_rank": "342",
@@ -5715,7 +5715,7 @@
         {
             "id": "1629620",
             "name": "Justin Robinson",
-            "team": "Oklahoma City Thunder",
+            "team": "Milwaukee Bucks",
             "position": "G",
             "y1_points": "59.5",
             "y1_rank": "394",
@@ -5799,7 +5799,7 @@
         {
             "id": "1629752",
             "name": "Juwan Morgan",
-            "team": "Utah Jazz",
+            "team": "Boston Celtics",
             "position": "F",
             "y1_points": "114.5",
             "y1_rank": "379",
@@ -6387,7 +6387,7 @@
         {
             "id": "1627739",
             "name": "Kris Dunn",
-            "team": "Boston Celtics",
+            "team": "Memphis Grizzlies",
             "position": "G",
             "y1_points": "20.0",
             "y1_rank": "409",
@@ -6492,7 +6492,7 @@
         {
             "id": "1629657",
             "name": "Kyle Guy",
-            "team": "Sacramento Kings",
+            "team": "Cleveland Cavaliers",
             "position": "G",
             "y1_points": "219.5",
             "y1_rank": "363",
@@ -6660,7 +6660,7 @@
         {
             "id": "204038",
             "name": "Langston Galloway",
-            "team": "Phoenix Suns",
+            "team": "Golden State Warriors",
             "position": "G",
             "y1_points": "382.5",
             "y1_rank": "324",
@@ -6681,7 +6681,7 @@
         {
             "id": "1626204",
             "name": "Larry Nance Jr.",
-            "team": "Cleveland Cavaliers",
+            "team": "Portland Trail Blazers",
             "position": "F-C",
             "y1_points": "1204.5",
             "y1_rank": "198",
@@ -6702,7 +6702,7 @@
         {
             "id": "1628374",
             "name": "Lauri Markkanen",
-            "team": "Chicago Bulls",
+            "team": "Cleveland Cavaliers",
             "position": "F-C",
             "y1_points": "1464.5",
             "y1_rank": "167",
@@ -7206,7 +7206,7 @@
         {
             "id": "1627737",
             "name": "Marquese Chriss",
-            "team": "Golden State Warriors",
+            "team": "Portland Trail Blazers",
             "position": "F",
             "y1_points": "40.0",
             "y1_rank": "401",
@@ -7332,7 +7332,7 @@
         {
             "id": "1629744",
             "name": "Matt Thomas",
-            "team": "Utah Jazz",
+            "team": "Chicago Bulls",
             "position": "G",
             "y1_points": "263.5",
             "y1_rank": "351",
@@ -7437,8 +7437,8 @@
         {
             "id": "1628982",
             "name": "Melvin Frazier Jr.",
-            "team": "None",
-            "position": "None",
+            "team": "Oklahoma City Thunder",
+            "position": "G-F",
             "y1_points": "0.0",
             "y1_rank": "416",
             "y2_points": "101.5",
@@ -8382,7 +8382,7 @@
         {
             "id": "201976",
             "name": "Patrick Beverley",
-            "team": "Memphis Grizzlies",
+            "team": "Minnesota Timberwolves",
             "position": "G",
             "y1_points": "850.0",
             "y1_rank": "261",
@@ -8424,7 +8424,7 @@
         {
             "id": "202335",
             "name": "Patrick Patterson",
-            "team": "LA Clippers",
+            "team": "Portland Trail Blazers",
             "position": "F",
             "y1_points": "485.5",
             "y1_rank": "307",
@@ -8487,7 +8487,7 @@
         {
             "id": "200794",
             "name": "Paul Millsap",
-            "team": "Denver Nuggets",
+            "team": "Brooklyn Nets",
             "position": "F",
             "y1_points": "1505.5",
             "y1_rank": "160",
@@ -8508,7 +8508,7 @@
         {
             "id": "1628778",
             "name": "Paul Watson",
-            "team": "Toronto Raptors",
+            "team": "Oklahoma City Thunder",
             "position": "G",
             "y1_points": "263.5",
             "y1_rank": "351",
@@ -8529,7 +8529,7 @@
         {
             "id": "1626188",
             "name": "Quinn Cook",
-            "team": "Cleveland Cavaliers",
+            "team": "Portland Trail Blazers",
             "position": "G",
             "y1_points": "172.5",
             "y1_rank": "369",
@@ -8550,7 +8550,7 @@
         {
             "id": "1629683",
             "name": "Quinndary Weatherspoon",
-            "team": "San Antonio Spurs",
+            "team": "Golden State Warriors",
             "position": "G",
             "y1_points": "110.0",
             "y1_rank": "380",
@@ -8592,7 +8592,7 @@
         {
             "id": "200765",
             "name": "Rajon Rondo",
-            "team": "Memphis Grizzlies",
+            "team": "Los Angeles Lakers",
             "position": "G",
             "y1_points": "936.0",
             "y1_rank": "244",
@@ -8655,7 +8655,7 @@
         {
             "id": "1629730",
             "name": "Rayjon Tucker",
-            "team": "Philadelphia 76ers",
+            "team": "Milwaukee Bucks",
             "position": "G",
             "y1_points": "72.0",
             "y1_rank": "391",
@@ -9054,7 +9054,7 @@
         {
             "id": "1627853",
             "name": "Ryan Arcidiacono",
-            "team": "Chicago Bulls",
+            "team": "Boston Celtics",
             "position": "G",
             "y1_points": "401.5",
             "y1_rank": "319",
@@ -9096,7 +9096,7 @@
         {
             "id": "1629635",
             "name": "Sekou Doumbouya",
-            "team": "Detroit Pistons",
+            "team": "Los Angeles Lakers",
             "position": "F",
             "y1_points": "672.0",
             "y1_rank": "287",
@@ -9202,7 +9202,7 @@
             "id": "1628983",
             "name": "Shai Gilgeous-Alexander",
             "team": "Oklahoma City Thunder",
-            "position": "G-F",
+            "position": "G",
             "y1_points": "1907.0",
             "y1_rank": "110",
             "y2_points": "3190.0",
@@ -9264,7 +9264,7 @@
         {
             "id": "1627885",
             "name": "Shaquille Harrison",
-            "team": "Denver Nuggets",
+            "team": "Philadelphia 76ers",
             "position": "G",
             "y1_points": "256.0",
             "y1_rank": "353",
@@ -9348,7 +9348,7 @@
         {
             "id": "1626169",
             "name": "Stanley Johnson",
-            "team": "Toronto Raptors",
+            "team": "Chicago Bulls",
             "position": "F-G",
             "y1_points": "888.5",
             "y1_rank": "251",
@@ -9453,7 +9453,7 @@
         {
             "id": "1629004",
             "name": "Svi Mykhailiuk",
-            "team": "Oklahoma City Thunder",
+            "team": "Toronto Raptors",
             "position": "G-F",
             "y1_points": "1222.5",
             "y1_rank": "195",
@@ -9537,7 +9537,7 @@
         {
             "id": "1629605",
             "name": "Tacko Fall",
-            "team": "Boston Celtics",
+            "team": "Cleveland Cavaliers",
             "position": "C",
             "y1_points": "218.5",
             "y1_rank": "364",
@@ -9810,7 +9810,7 @@
         {
             "id": "1629033",
             "name": "Theo Pinson",
-            "team": "New York Knicks",
+            "team": "Boston Celtics",
             "position": "G-F",
             "y1_points": "1.0",
             "y1_rank": "415",
@@ -9915,7 +9915,7 @@
         {
             "id": "1627789",
             "name": "Timothe Luwawu-Cabarrot",
-            "team": "Brooklyn Nets",
+            "team": "Atlanta Hawks",
             "position": "G-F",
             "y1_points": "825.0",
             "y1_rank": "264",
@@ -10062,7 +10062,7 @@
         {
             "id": "1629682",
             "name": "Tremont Waters",
-            "team": "Boston Celtics",
+            "team": "Milwaukee Bucks",
             "position": "G",
             "y1_points": "312.0",
             "y1_rank": "338",
@@ -10251,7 +10251,7 @@
         {
             "id": "1629076",
             "name": "Tyler Cook",
-            "team": "Detroit Pistons",
+            "team": "Chicago Bulls",
             "position": "F",
             "y1_points": "398.0",
             "y1_rank": "321",

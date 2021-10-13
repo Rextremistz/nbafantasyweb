@@ -3,7 +3,7 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1628988,Aaron Holiday,Washington Wizards,G,1112.5,214,1685.5,151,714.5,294,16.9,25.5,14.3,66,66,50,0,0,0
 1627846,Abdel Nader,Phoenix Suns,F,375.5,325,757.5,285,558.5,309,15.6,13.8,9.2,24,55,61,0,0,0
 1629690,Adam Mokoka,Chicago Bulls,G,34.0,404,78.5,433,0.0,389,2.4,7.1,0.0,14,11,0,0,0,0
-1629678,Admiral Schofield,Oklahoma City Thunder,G-F,0.0,416,241.0,393,0.0,389,0.0,7.3,0.0,0,33,0,0,0,0
+1629678,Admiral Schofield,Orlando Magic,F,0.0,416,241.0,393,0.0,389,0.0,7.3,0.0,0,33,0,0,0,0
 201143,Al Horford,Boston Celtics,C-F,1140.0,208,2643.5,49,3088.5,58,40.7,39.5,45.4,28,67,68,7,7,0
 202329,Al-Farouq Aminu,San Antonio Spurs,F,385.5,323,310.5,373,2339.0,103,16.8,17.2,28.9,23,18,81,0,0,0
 202692,Alec Burks,New York Knicks,G,1461.5,168,2261.5,80,1427.0,204,29.8,34.3,22.3,49,66,64,0,0,0
@@ -11,7 +11,7 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1627936,Alex Caruso,Chicago Bulls,G,1209.5,197,1091.5,234,660.0,299,20.9,17.1,26.4,58,64,25,0,0,0
 203458,Alex Len,Sacramento Kings,C,1327.0,184,1419.5,193,2261.0,113,20.7,25.8,29.4,64,55,77,0,1,0
 1628035,Alfonzo McKinnie,Los Angeles Lakers,F,279.0,347,481.5,335,944.0,272,7.2,12.0,13.1,39,40,72,0,0,0
-1628993,Alize Johnson,Brooklyn Nets,F,334.0,335,140.5,416,54.0,381,18.6,8.3,3.9,18,17,14,0,0,0
+1628993,Alize Johnson,Chicago Bulls,F,334.0,335,140.5,416,54.0,381,18.6,8.3,3.9,18,17,14,0,0,0
 203459,Allen Crabbe,Minnesota Timberwolves,G-F,0.0,416,404.5,356,849.0,281,0.0,10.9,19.7,0,37,43,0,0,0
 1629019,Allonzo Trier,New York Knicks,G,0.0,416,304.5,375,1433.0,203,0.0,12.7,22.4,0,24,64,0,0,0
 1628518,Amile Jefferson,Boston Celtics,F,0.0,416,68.0,438,95.5,372,0.0,3.8,8.0,0,18,12,0,0,0
@@ -28,7 +28,7 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1628394,Anzejs Pasecniks,Washington Wizards,C-F,-6.5,419,444.5,346,0.0,389,-6.5,16.5,0.0,1,27,0,0,0,0
 203382,Aron Baynes,Toronto Raptors,C-F,982.0,235,1207.0,218,998.0,263,18.5,28.7,19.6,53,42,51,3,0,0
 203085,Austin Rivers,Denver Nuggets,G,703.5,283,1370.5,200,1492.5,198,19.5,20.2,19.6,36,68,76,0,0,0
-202340,Avery Bradley,Houston Rockets,G,418.0,317,933.0,258,1448.5,201,15.5,19.0,23.0,27,49,63,1,0,0
+202340,Avery Bradley,Golden State Warriors,G,418.0,317,933.0,258,1448.5,201,15.5,19.0,23.0,27,49,63,1,0,0
 1629168,BJ Johnson,None,None,0.0,416,58.5,441,46.0,383,0.0,5.8,6.6,0,10,7,0,0,0
 1628389,Bam Adebayo,Miami Heat,C-F,3895.0,13,4171.0,8,2659.0,81,60.9,57.9,32.4,64,72,82,128,23,0
 203463,Ben McLemore,Portland Trail Blazers,G,745.0,276,1420.5,192,150.0,361,14.1,20.0,7.9,53,71,19,0,0,0
@@ -40,22 +40,22 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 203992,Bogdan Bogdanovic,Atlanta Hawks,G,1680.5,140,2087.0,103,2351.0,102,38.2,34.2,33.6,44,61,70,21,1,0
 202711,Bojan Bogdanovic,Utah Jazz,F,2270.5,78,2247.5,82,2830.5,71,31.5,35.7,34.9,72,63,81,16,7,0
 1629626,Bol Bol,Denver Nuggets,C-F,158.5,373,107.5,423,0.0,389,5.0,15.4,0.0,32,7,0,0,0,0
-202954,Brad Wanamaker,Charlotte Hornets,G,1026.5,230,1393.0,196,392.0,333,16.8,19.6,10.9,61,71,36,0,0,0
+202954,Brad Wanamaker,Indiana Pacers,G,1026.5,230,1393.0,196,392.0,333,16.8,19.6,10.9,61,71,36,0,0,0
 203078,Bradley Beal,Washington Wizards,G,3692.5,17,3605.0,19,4873.0,13,61.5,63.2,59.4,60,57,82,101,132,0
 1629634,Brandon Clarke,Memphis Grizzlies,F,1898.0,112,1931.5,115,0.0,389,32.2,33.3,0.0,59,58,0,4,0,0
 1629164,Brandon Goodwin,Atlanta Hawks,G,581.0,300,476.0,337,60.0,380,12.4,14.0,3.8,47,34,16,0,0,0
 1627742,Brandon Ingram,New Orleans Pelicans,F,3148.5,33,3230.5,29,2022.5,138,51.6,52.1,38.9,61,62,52,75,7,0
 202688,Brandon Knight,Detroit Pistons,G,0.0,416,406.0,355,598.5,304,0.0,16.2,15.3,0,25,39,0,0,0
-1628968,Brian Bowen II,Indiana Pacers,F-G,6.0,413,16.0,472,0.0,389,1.0,2.7,0.0,6,6,0,0,0,0
+1628968,Brian Bowen II,Minnesota Timberwolves,F-G,6.0,413,16.0,472,0.0,389,1.0,2.7,0.0,6,6,0,0,0,0
 201572,Brook Lopez,Milwaukee Bucks,C,2244.0,81,2410.5,70,2795.0,73,32.1,35.4,34.5,70,68,81,7,18,0
 1628971,Bruce Brown,Brooklyn Nets,G-F,1813.0,122,1774.5,141,1049.0,258,27.9,30.6,14.2,65,58,74,0,0,0
 203998,Bruno Caboclo,Houston Rockets,F,41.5,400,327.5,367,838.5,283,6.9,10.9,24.7,6,30,34,0,0,0
 1628981,Bruno Fernando,Boston Celtics,F-C,169.0,370,774.5,281,0.0,389,5.1,13.8,0.0,33,56,0,0,0,0
-1627854,Bryn Forbes,Milwaukee Bucks,G,1247.0,193,1355.0,203,2076.5,134,17.8,21.5,25.3,70,63,82,0,0,0
+1627854,Bryn Forbes,San Antonio Spurs,G,1247.0,193,1355.0,203,2076.5,134,17.8,21.5,25.3,70,63,82,0,0,0
 1627741,Buddy Hield,Sacramento Kings,G,2659.0,55,2774.0,44,3501.5,41,37.5,38.5,42.7,71,72,82,53,50,0
 203468,CJ McCollum,Portland Trail Blazers,G,2418.5,68,3416.5,24,3026.0,62,51.5,48.8,43.2,47,70,70,42,36,0
 101139,CJ Miles,Washington Wizards,F-G,0.0,416,160.5,412,701.5,295,0.0,16.0,13.2,0,10,53,0,0,0
-1628997,Caleb Martin,Charlotte Hornets,F,763.5,274,300.5,376,0.0,389,14.4,16.7,0.0,53,18,0,0,0,0
+1628997,Caleb Martin,Miami Heat,F,763.5,274,300.5,376,0.0,389,14.4,16.7,0.0,53,18,0,0,0,0
 1628403,Caleb Swanigan,Portland Trail Blazers,F,0.0,416,264.5,385,156.5,360,0.0,9.8,7.5,0,27,21,0,0,0
 1629629,Cam Reddish,Atlanta Hawks,F-G,645.5,290,1371.0,199,0.0,389,24.8,23.6,0.0,26,58,0,7,0,0
 1629661,Cameron Johnson,Phoenix Suns,F,1308.0,187,1246.5,215,0.0,389,21.8,21.9,0.0,60,57,0,0,0,0
@@ -64,7 +64,7 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 2546,Carmelo Anthony,Los Angeles Lakers,F,1960.5,105,2005.5,106,274.5,344,28.4,34.6,27.4,69,58,10,4,0,0
 1629035,Carsen Edwards,Boston Celtics,G,236.5,356,277.5,382,0.0,389,7.6,7.5,0.0,31,37,0,0,0,0
 1626224,Cedi Osman,Cleveland Cavaliers,F,1502.0,161,1704.5,148,2263.0,112,25.5,26.2,29.8,59,65,76,1,0,0
-1628990,Chandler Hutchison,San Antonio Spurs,F-G,285.5,345,542.5,325,670.5,297,11.4,19.4,15.2,25,28,44,0,0,0
+1628990,Chandler Hutchison,Phoenix Suns,F-G,285.5,345,542.5,325,670.5,297,11.4,19.4,15.2,25,28,44,0,0,0
 202718,Chandler Parsons,Atlanta Hawks,F,0.0,416,39.5,453,432.5,328,0.0,7.9,17.3,0,5,25,0,0,0
 1629718,Charles Brown Jr.,None,None,96.0,384,44.0,449,0.0,389,10.7,4.4,0.0,9,10,0,0,0,0
 1627767,Cheick Diallo,Phoenix Suns,F-C,0.0,416,589.5,311,1314.0,218,0.0,12.5,20.5,0,47,64,0,0,0
@@ -73,7 +73,7 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1629185,Chris Chiozza,Golden State Warriors,G,321.5,337,483.5,334,26.5,386,14.6,17.3,3.8,22,28,7,0,0,0
 1629598,Chris Clemons,Houston Rockets,G,0.0,416,325.0,369,0.0,389,0.0,9.8,0.0,0,33,0,0,0,0
 101108,Chris Paul,Phoenix Suns,G,3903.0,12,3494.5,22,3020.0,63,55.8,49.9,52.1,70,70,58,52,89,0
-1629735,Chris Silva,Sacramento Kings,F,104.5,382,488.5,333,0.0,389,7.0,11.1,0.0,15,44,0,0,0,0
+1629735,Chris Silva,Minnesota Timberwolves,F,104.5,382,488.5,333,0.0,389,7.0,11.1,0.0,15,44,0,0,0,0
 1626174,Christian Wood,Houston Rockets,F,2209.0,88,2116.0,101,416.0,332,53.9,34.1,19.8,41,62,21,80,0,0
 203991,Clint Capela,Atlanta Hawks,C,3765.5,16,2196.0,88,3919.5,28,59.8,56.3,58.5,63,39,67,45,78,0
 1629632,Coby White,Chicago Bulls,G,2458.5,63,1784.5,140,0.0,389,35.6,27.5,0.0,69,65,0,19,1,0
@@ -85,12 +85,12 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1626245,Cristiano Felicio,Chicago Bulls,F-C,93.0,385,331.5,366,736.5,290,5.2,15.1,12.3,18,22,60,0,0,0
 1626156,D'Angelo Russell,Minnesota Timberwolves,G,1876.5,114,2257.5,81,4152.0,22,44.7,50.2,51.3,42,45,81,61,63,0
 201571,D.J. Augustin,Houston Rockets,G,1132.5,210,1544.5,173,2628.0,84,19.9,27.1,32.4,57,57,81,0,0,0
-1628391,D.J. Wilson,Houston Rockets,F,493.5,306,321.0,370,857.5,280,14.1,8.7,17.9,35,37,48,0,0,0
-1629610,DaQuan Jeffries,San Antonio Spurs,G-F,368.5,327,121.0,420,0.0,389,11.9,9.3,0.0,31,13,0,0,0,0
+1628391,D.J. Wilson,Oklahoma City Thunder,F,493.5,306,321.0,370,857.5,280,14.1,8.7,17.9,35,37,48,0,0,0
+1629610,DaQuan Jeffries,Atlanta Hawks,G-F,368.5,327,121.0,420,0.0,389,11.9,9.3,0.0,31,13,0,0,0,0
 1627745,Damian Jones,Sacramento Kings,C,620.0,293,1027.0,244,484.5,321,15.9,18.7,20.2,39,55,24,0,0,0
 203081,Damian Lillard,Portland Trail Blazers,G,4318.0,7,4572.5,6,4830.5,14,64.4,69.3,60.4,67,66,80,164,128,0
 1627814,Damion Lee,Golden State Warriors,G-F,999.0,234,1520.0,177,342.5,338,17.5,31.0,10.7,57,49,32,0,0,0
-1628422,Damyean Dotson,Cleveland Cavaliers,G,700.5,285,715.0,295,1767.5,163,15.2,14.9,24.2,46,48,73,0,0,0
+1628422,Damyean Dotson,San Antonio Spurs,G,700.5,285,715.0,295,1767.5,163,15.2,14.9,24.2,46,48,73,0,0,0
 1629655,Daniel Gafford,Washington Wizards,F-C,1307.0,188,758.5,284,0.0,389,24.2,17.6,0.0,54,43,0,0,0,0
 1628464,Daniel Theis,Houston Rockets,F-C,1912.5,109,2152.5,93,1213.5,239,29.4,33.1,18.4,65,65,66,3,0,0
 201568,Danilo Gallinari,Atlanta Hawks,F,1434.0,172,2309.5,77,2968.5,65,28.1,37.2,43.7,51,62,68,15,15,0
@@ -98,7 +98,7 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 203957,Dante Exum,Houston Rockets,G,85.0,389,411.0,354,717.5,293,14.2,11.7,17.1,6,35,42,0,0,0
 1627863,Danuel House Jr.,Houston Rockets,F-G,786.0,270,1682.0,154,820.5,285,21.8,26.7,21.0,36,63,39,0,0,0
 203967,Dario Saric,Phoenix Suns,F-C,1000.0,233,1902.0,119,2098.0,128,20.0,28.8,25.9,50,66,81,1,0,0
-1629647,Darius Bazley,Oklahoma City Thunder,F-G,1720.0,135,980.0,252,0.0,389,31.3,16.1,0.0,55,61,0,1,0,0
+1629647,Darius Bazley,Oklahoma City Thunder,F,1720.0,135,980.0,252,0.0,389,31.3,16.1,0.0,55,61,0,1,0,0
 1629636,Darius Garland,Cleveland Cavaliers,G,2263.0,79,1535.5,174,0.0,389,41.9,26.0,0.0,54,59,0,1,0,0
 203121,Darius Miller,Oklahoma City Thunder,F,225.0,359,0.0,481,1342.0,215,12.5,0.0,19.4,18,0,69,0,0,0
 1629133,Daryl Macon,Miami Heat,G,0.0,416,2.5,479,60.5,379,0.0,0.6,7.6,0,4,8,0,0,0
@@ -107,7 +107,7 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1628368,De'Aaron Fox,Sacramento Kings,G,3459.5,21,2707.0,47,4082.5,23,59.6,53.1,50.4,58,51,81,76,52,0
 1629631,De'Andre Hunter,Atlanta Hawks,F-G,783.5,271,1682.5,153,0.0,389,34.1,26.7,0.0,23,63,0,3,0,0
 1629001,De'Anthony Melton,Memphis Grizzlies,G,1363.0,180,1442.5,187,1027.5,260,26.2,24.0,20.6,52,60,50,0,0,0
-201599,DeAndre Jordan,Brooklyn Nets,C,1658.5,141,1934.0,114,3210.0,54,29.1,34.5,46.5,57,56,69,4,19,0
+201599,DeAndre Jordan,Los Angeles Lakers,C,1658.5,141,1934.0,114,3210.0,54,29.1,34.5,46.5,57,56,69,4,19,0
 1627761,DeAndre' Bembry,Brooklyn Nets,G-F,955.0,240,864.5,268,2078.5,133,18.7,20.1,25.3,51,43,82,0,0,0
 201942,DeMar DeRozan,Chicago Bulls,G-F,3398.5,23,3646.0,18,4211.5,19,55.7,53.6,54.7,61,68,77,71,48,0
 202326,DeMarcus Cousins,LA Clippers,C,1141.0,207,0.0,481,1493.5,197,27.8,0.0,49.8,41,0,30,19,0,0
@@ -117,17 +117,17 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1627749,Dejounte Murray,San Antonio Spurs,G,3185.5,31,2370.0,73,0.0,389,47.5,35.9,0.0,67,66,0,17,1,0
 1626153,Delon Wright,Atlanta Hawks,G,2230.0,83,1879.5,121,2147.0,124,35.4,25.7,28.6,63,73,75,1,0,0
 203471,Dennis Schroder,Boston Celtics,G,2424.5,66,2526.5,58,2721.0,76,39.7,38.9,34.4,61,65,79,7,0,0
-1628372,Dennis Smith Jr.,Detroit Pistons,G,555.5,302,567.0,317,1790.5,161,24.2,16.7,33.8,23,34,53,0,0,0
-1627756,Denzel Valentine,Chicago Bulls,G,1032.0,229,564.5,319,0.0,389,16.6,15.7,0.0,62,36,0,0,0,0
+1628372,Dennis Smith Jr.,Portland Trail Blazers,G,555.5,302,567.0,317,1790.5,161,24.2,16.7,33.8,23,34,53,0,0,0
+1627756,Denzel Valentine,Cleveland Cavaliers,G,1032.0,229,564.5,319,0.0,389,16.6,15.7,0.0,62,36,0,0,0,0
 1629126,Deonte Burton,Oklahoma City Thunder,G-F,0.0,416,246.5,392,194.0,355,0.0,6.3,6.1,0,39,32,0,0,0
 202324,Derrick Favors,Oklahoma City Thunder,F,1505.5,160,1920.5,116,2903.5,68,22.1,37.7,38.2,68,51,76,7,21,0
-1627884,Derrick Jones Jr.,Portland Trail Blazers,F,1210.5,196,1436.5,188,1238.0,234,20.9,24.3,20.6,58,59,60,0,0,0
+1627884,Derrick Jones Jr.,Chicago Bulls,F,1210.5,196,1436.5,188,1238.0,234,20.9,24.3,20.6,58,59,60,0,0,0
 201565,Derrick Rose,New York Knicks,G,1809.0,123,2126.0,100,2041.5,137,36.2,42.5,40.0,50,50,51,14,0,0
-1628476,Derrick Walton Jr.,None,None,0.0,416,171.5,408,0.0,389,0.0,6.6,0.0,0,26,0,0,0,0
+1628476,Derrick Walton Jr.,Detroit Pistons,G,0.0,416,171.5,408,0.0,389,0.0,6.6,0.0,0,26,0,0,0,0
 1628401,Derrick White,San Antonio Spurs,G,1312.5,186,2130.5,98,2080.5,132,36.5,31.3,31.1,36,68,67,5,1,0
 1626164,Devin Booker,Phoenix Suns,G,3318.5,28,3968.5,11,3604.5,39,49.5,56.7,56.3,67,70,64,137,75,0
 1628985,Devon Hall,Oklahoma City Thunder,G,0.0,416,62.0,439,0.0,389,0.0,5.6,0.0,0,11,0,0,0,0
-1629719,Devontae Cacok,Los Angeles Lakers,F,125.5,376,18.5,469,0.0,389,6.3,18.5,0.0,20,1,0,0,0,0
+1629719,Devontae Cacok,Brooklyn Nets,F,125.5,376,18.5,469,0.0,389,6.3,18.5,0.0,20,1,0,0,0,0
 1628984,Devonte' Graham,New Orleans Pelicans,G,2007.0,101,2994.0,39,652.0,300,36.5,47.5,14.2,55,63,46,31,0,0
 1629608,Dewan Hernandez,Toronto Raptors,C-F,0.0,416,41.5,451,0.0,389,0.0,6.9,0.0,0,6,0,0,0,0
 203473,Dewayne Dedmon,Miami Heat,C,357.0,331,843.0,270,2242.5,114,22.3,19.2,35.0,16,44,64,0,0,0
@@ -147,7 +147,7 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 203939,Dwight Powell,Dallas Mavericks,F-C,1146.5,206,1145.0,229,2305.0,107,19.8,28.6,29.9,58,40,77,0,0,0
 1629685,Dylan Windler,Cleveland Cavaliers,G-F,478.5,309,0.0,481,0.0,389,15.4,0.0,0.0,31,0,0,0,0,0
 1629058,Dzanan Musa,Detroit Pistons,G-F,0.0,416,430.0,350,30.5,385,0.0,10.8,3.4,0,40,9,0,0,0
-202734,E'Twaun Moore,Phoenix Suns,G,364.5,328,1056.0,238,1371.5,207,13.5,18.9,25.9,27,56,53,0,0,0
+202734,E'Twaun Moore,Orlando Magic,G,364.5,328,1056.0,238,1371.5,207,13.5,18.9,25.9,27,56,53,0,0,0
 202334,Ed Davis,Minnesota Timberwolves,C-F,358.5,330,285.0,380,1942.5,147,15.6,10.2,24.0,23,28,81,0,0,0
 1628410,Edmond Sumner,Indiana Pacers,G,860.5,259,430.5,349,172.0,359,16.2,13.9,7.5,53,31,23,0,0,0
 203901,Elfrid Payton,Phoenix Suns,G,1637.0,143,1835.0,131,1818.0,158,26.0,40.8,43.3,63,45,42,3,1,0
@@ -162,13 +162,13 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 202323,Evan Turner,Minnesota Timberwolves,G-F,0.0,416,229.0,395,1758.5,165,0.0,12.1,24.1,0,19,73,0,0,0
 1628402,Frank Jackson,Detroit Pistons,G,723.5,280,717.0,293,990.5,264,18.1,12.2,16.2,40,59,61,0,0,0
 1626163,Frank Kaminsky,Phoenix Suns,F-C,942.0,243,932.5,259,944.5,271,20.0,23.9,20.1,47,39,47,0,0,0
-1628412,Frank Mason,None,None,68.0,392,176.0,406,503.0,318,17.0,19.6,13.2,4,9,38,0,0,0
-1628373,Frank Ntilikina,New York Knicks,G,249.5,354,1139.5,230,730.5,292,7.6,20.0,17.0,33,57,43,0,0,0
+1628412,Frank Mason,Orlando Magic,G,68.0,392,176.0,406,503.0,318,17.0,19.6,13.2,4,9,38,0,0,0
+1628373,Frank Ntilikina,Dallas Mavericks,G,249.5,354,1139.5,230,730.5,292,7.6,20.0,17.0,33,57,43,0,0,0
 1627832,Fred VanVleet,Toronto Raptors,G,2697.5,53,2624.0,51,2005.0,142,51.9,48.6,31.3,52,54,64,41,0,0
 1627788,Furkan Korkmaz,Philadelphia 76ers,G-F,1091.0,216,1421.5,191,663.0,298,19.8,19.7,13.8,55,72,48,0,0,0
 1629216,Gabe Vincent,Miami Heat,G,551.0,303,48.0,445,0.0,389,11.0,5.3,0.0,50,9,0,0,0,0
 202066,Garrett Temple,New Orleans Pelicans,G-F,1196.0,199,1611.5,163,1502.0,193,21.4,26.0,20.0,56,62,75,0,0,0
-1629726,Garrison Mathews,Washington Wizards,G,744.0,277,204.5,401,0.0,389,11.6,11.4,0.0,64,18,0,0,0,0
+1629726,Garrison Mathews,Boston Celtics,G,744.0,277,204.5,401,0.0,389,11.6,11.4,0.0,64,18,0,0,0,0
 1629109,Gary Clark,Philadelphia 76ers,F,387.0,322,480.0,336,503.5,317,9.9,11.4,9.9,39,42,51,0,0,0
 203914,Gary Harris,Orlando Magic,G,867.0,256,1434.5,190,1627.0,181,22.2,25.6,28.5,39,56,57,0,0,0
 1627780,Gary Payton II,Golden State Warriors,G,76.0,390,470.5,339,41.5,384,7.6,16.2,13.8,10,29,3,0,0,0
@@ -186,14 +186,14 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1628960,Grayson Allen,Milwaukee Bucks,G,1251.0,192,665.0,301,334.0,339,25.0,17.5,8.8,50,38,38,0,0,0
 1628977,Hamidou Diallo,Detroit Pistons,G,1566.5,154,812.0,276,492.5,320,30.1,17.7,9.7,52,46,51,0,0,0
 203084,Harrison Barnes,Sacramento Kings,F,2348.0,71,2349.5,75,2495.5,91,40.5,32.6,32.4,58,72,77,3,6,0
-1628385,Harry Giles III,Portland Trail Blazers,F-C,419.0,316,932.0,260,1129.0,250,11.0,20.3,19.5,38,46,58,0,0,0
+1628385,Harry Giles III,LA Clippers,F-C,419.0,316,932.0,260,1129.0,250,11.0,20.3,19.5,38,46,58,0,0,0
 202355,Hassan Whiteside,Utah Jazz,C,931.0,245,4098.0,10,3367.5,45,25.9,61.2,46.8,36,67,72,64,4,0
 1627740,Henry Ellenson,Toronto Raptors,F,45.0,399,9.0,476,279.5,343,22.5,1.8,14.7,2,5,19,0,0,0
 101133,Ian Mahinmi,Washington Wizards,C,0.0,416,1001.5,247,534.5,311,0.0,26.4,15.7,0,38,34,0,0,0
 1629649,Ignas Brazdeikis,Orlando Magic,F,223.5,361,33.5,459,0.0,389,17.2,3.7,0.0,13,9,0,0,0,0
 202697,Iman Shumpert,Brooklyn Nets,G,3.5,414,157.0,413,1258.5,228,1.8,12.1,20.3,2,13,62,0,0,0
 1629067,Isaac Bonga,Toronto Raptors,G,261.0,352,1067.5,236,112.5,368,6.5,16.2,5.1,40,66,22,0,0,0
-1628392,Isaiah Hartenstein,Cleveland Cavaliers,C-F,867.5,255,391.0,358,225.0,351,18.9,17.0,8.0,46,23,28,0,0,0
+1628392,Isaiah Hartenstein,LA Clippers,C-F,867.5,255,391.0,358,225.0,351,18.9,17.0,8.0,46,23,28,0,0,0
 1629676,Isaiah Roby,Oklahoma City Thunder,F,1560.0,156,-0.5,482,0.0,389,25.6,-0.2,0.0,61,3,0,0,0,0
 202738,Isaiah Thomas,New Orleans Pelicans,G,35.5,403,1032.5,242,174.0,358,11.8,25.8,14.5,3,40,12,0,0,0
 202397,Ish Smith,Charlotte Hornets,G,1077.5,220,2240.0,85,1362.5,209,24.5,32.9,24.3,44,68,56,0,0,0
@@ -207,7 +207,7 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 203953,Jabari Parker,Boston Celtics,F,188.0,366,1299.5,209,2242.5,114,14.5,34.2,35.0,13,38,64,1,2,0
 1628980,Jacob Evans,Minnesota Timberwolves,G-F,0.0,416,320.0,371,141.0,363,0.0,11.0,4.7,0,29,30,0,0,0
 203109,Jae Crowder,Phoenix Suns,F,1580.0,150,1967.0,112,2183.0,120,26.3,30.3,27.3,60,65,80,1,0,0
-1626143,Jahlil Okafor,Detroit Pistons,C-F,341.0,332,693.5,298,1361.5,210,12.6,23.1,23.1,27,30,59,0,0,0
+1626143,Jahlil Okafor,Atlanta Hawks,C-F,341.0,332,693.5,298,1361.5,210,12.6,23.1,23.1,27,30,59,0,0,0
 1627774,Jake Layman,Minnesota Timberwolves,F,585.0,298,445.0,345,1310.0,220,13.0,19.3,18.5,45,23,71,0,0,0
 1627751,Jakob Poeltl,San Antonio Spurs,C,2627.0,56,1787.0,139,1748.5,166,38.1,27.1,22.7,69,66,77,0,0,0
 1628973,Jalen Brunson,Dallas Mavericks,G,2080.0,97,1258.0,212,1704.5,172,30.6,22.1,23.3,68,57,73,0,0,0
@@ -223,7 +223,7 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1629020,Jarred Vanderbilt,Minnesota Timberwolves,F,1493.0,164,34.5,458,76.5,373,23.3,3.1,4.5,64,11,17,0,0,0
 1629714,Jarrell Brantley,Utah Jazz,F,179.5,367,92.5,428,0.0,389,6.4,10.3,0.0,28,9,0,0,0,0
 1628386,Jarrett Allen,Cleveland Cavaliers,C,2817.5,48,2975.5,40,3084.5,59,44.7,42.5,38.6,63,70,80,23,4,0
-1629633,Jarrett Culver,Minnesota Timberwolves,G-F,471.0,310,1457.5,184,0.0,389,13.9,23.1,0.0,34,63,0,0,0,0
+1629633,Jarrett Culver,Memphis Grizzlies,G-F,471.0,310,1457.5,184,0.0,389,13.9,23.1,0.0,34,63,0,0,0,0
 1629750,Javonte Green,Chicago Bulls,G-F,420.5,315,470.0,340,0.0,389,10.3,9.8,0.0,41,48,0,0,0,0
 1629637,Jaxson Hayes,New Orleans Pelicans,C-F,1279.5,189,1436.0,189,0.0,389,21.3,22.4,0.0,60,64,0,0,0,0
 1627759,Jaylen Brown,Boston Celtics,G-F,3089.0,35,2474.5,65,2125.5,126,53.3,43.4,28.7,58,57,74,52,0,0
@@ -256,7 +256,7 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1629162,Jordan McLaughlin,Minnesota Timberwolves,G,1033.0,228,770.5,282,0.0,389,20.3,25.7,0.0,51,30,0,0,0,0
 203895,Jordan McRae,Detroit Pistons,G,0.0,416,989.5,249,383.0,334,0.0,26.7,14.2,0,37,27,0,0,0
 1629673,Jordan Poole,Golden State Warriors,G,1204.5,198,1059.0,237,0.0,389,23.6,18.6,0.0,51,57,0,0,0,0
-1627982,Josh Gray,None,None,0.0,416,1.0,480,0.0,389,0.0,0.5,0.0,0,2,0,0,0,0
+1627982,Josh Gray,New Orleans Pelicans,G,0.0,416,1.0,480,0.0,389,0.0,0.5,0.0,0,2,0,0,0,0
 1628404,Josh Hart,New Orleans Pelicans,G,1423.0,173,1859.0,126,1478.5,199,30.3,28.6,22.1,47,65,67,0,0,0
 1628367,Josh Jackson,Detroit Pistons,G-F,1855.0,119,465.5,342,2207.5,118,29.9,21.2,27.9,62,22,79,0,0,0
 203705,Josh Magette,Atlanta Hawks,G,0.0,416,36.5,455,0.0,389,0.0,4.6,0.0,0,8,0,0,0,0
@@ -264,18 +264,18 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1629729,Josh Reaves,Dallas Mavericks,G-F,0.0,416,21.0,465,0.0,389,0.0,5.2,0.0,0,4,0,0,0,0
 1626196,Josh Richardson,Boston Celtics,G,1727.0,133,1746.5,145,2860.5,70,29.3,31.8,39.2,59,55,73,4,3,0
 201950,Jrue Holiday,Milwaukee Bucks,G,3042.0,36,3249.0,28,4009.5,26,51.6,53.3,59.8,59,61,67,78,79,0
-1627823,Juancho Hernangomez,Minnesota Timberwolves,F,864.0,258,783.5,280,1168.0,244,16.6,16.3,16.7,52,48,70,0,0,0
+1627823,Juancho Hernangomez,Boston Celtics,F,864.0,258,783.5,280,1168.0,244,16.6,16.3,16.7,52,48,70,0,0,0
 203944,Julius Randle,New York Knicks,F-C,4562.0,6,3156.5,34,3886.5,29,64.3,49.3,53.2,71,64,73,39,51,0
 1626147,Justin Anderson,Philadelphia 76ers,F-G,0.0,416,81.5,432,481.0,322,0.0,8.2,10.0,0,10,48,0,0,0
 203200,Justin Holiday,Indiana Pacers,F-G,1880.5,113,1690.5,150,2184.0,119,26.1,23.2,26.6,72,73,82,0,0,0
 1628382,Justin Jackson,Milwaukee Bucks,F,532.5,304,835.0,272,1395.0,206,15.7,12.8,17.2,34,65,81,0,0,0
-1629713,Justin James,Sacramento Kings,G-F,292.5,342,236.5,394,0.0,389,8.1,6.6,0.0,36,36,0,0,0,0
+1629713,Justin James,Cleveland Cavaliers,G-F,292.5,342,236.5,394,0.0,389,8.1,6.6,0.0,36,36,0,0,0,0
 1628383,Justin Patton,Houston Rockets,C,272.5,350,18.5,469,26.0,387,21.0,3.7,8.7,13,5,3,0,0,0
-1629620,Justin Robinson,Oklahoma City Thunder,G,59.5,394,40.5,452,0.0,389,6.6,4.5,0.0,9,9,0,0,0,0
+1629620,Justin Robinson,Milwaukee Bucks,G,59.5,394,40.5,452,0.0,389,6.6,4.5,0.0,9,9,0,0,0,0
 1629625,Justin Wright-Foreman,Utah Jazz,G,0.0,416,44.5,448,0.0,389,0.0,11.1,0.0,0,4,0,0,0,0
 1626159,Justise Winslow,LA Clippers,F-G,501.5,305,361.5,364,2328.0,104,19.3,32.9,35.3,26,11,66,0,1,0
 203994,Jusuf Nurkic,Portland Trail Blazers,C,1600.5,146,480.0,336,3874.0,30,43.3,60.0,53.8,37,8,72,42,0,0
-1629752,Juwan Morgan,Utah Jazz,F,114.5,379,107.5,423,0.0,389,3.9,5.1,0.0,29,21,0,0,0,0
+1629752,Juwan Morgan,Boston Celtics,F,114.5,379,107.5,423,0.0,389,3.9,5.1,0.0,29,21,0,0,0,0
 1629644,KZ Okpala,Miami Heat,F-G,290.0,343,26.5,462,0.0,389,7.8,5.3,0.0,37,5,0,0,0,0
 1628443,Kadeem Allen,New York Knicks,G,0.0,416,137.5,419,532.0,313,0.0,13.8,28.0,0,10,19,0,0,0
 1626157,Karl-Anthony Towns,Minnesota Timberwolves,C-F,3368.0,26,2489.0,62,5397.0,5,67.4,71.1,70.1,50,35,77,169,172,0
@@ -303,12 +303,12 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 202691,Klay Thompson,Golden State Warriors,G,0.0,416,0.0,481,3412.0,44,0.0,0.0,43.7,0,0,78,0,0,0
 1628424,Kobi Simmons,Charlotte Hornets,G,0.0,416,0.0,481,0.0,389,0.0,0.0,0.0,0,0,1,0,0,0
 1628961,Kostas Antetokounmpo,Los Angeles Lakers,F,38.0,402,19.5,467,5.5,388,2.5,3.9,2.8,15,5,2,0,0,0
-1627739,Kris Dunn,Boston Celtics,G,20.0,409,1383.0,197,1718.0,170,5.0,27.1,37.3,4,51,46,0,0,0
+1627739,Kris Dunn,Memphis Grizzlies,G,20.0,409,1383.0,197,1718.0,170,5.0,27.1,37.3,4,51,46,0,0,0
 204001,Kristaps Porzingis,Dallas Mavericks,F-C,2222.0,85,3134.0,35,0.0,389,51.7,55.0,0.0,43,57,0,12,72,0
 1629065,Ky Bowman,LA Clippers,G,0.0,416,956.5,254,0.0,389,0.0,21.3,0.0,0,45,0,0,0,0
 1629734,Kyle Alexander,Miami Heat,F-C,0.0,416,6.0,478,0.0,389,0.0,3.0,0.0,0,2,0,0,0,0
 203937,Kyle Anderson,Memphis Grizzlies,F-G,2614.5,58,1471.0,183,1352.5,212,37.9,22.0,31.5,69,67,43,0,0,0
-1629657,Kyle Guy,Sacramento Kings,G,219.5,363,7.5,477,0.0,389,7.1,2.5,0.0,31,3,0,0,0,0
+1629657,Kyle Guy,Cleveland Cavaliers,G,219.5,363,7.5,477,0.0,389,7.1,2.5,0.0,31,3,0,0,0,0
 2594,Kyle Korver,Milwaukee Bucks,G-F,0.0,416,873.0,267,1195.5,241,0.0,15.1,17.1,0,58,70,0,0,0
 1628398,Kyle Kuzma,Washington Wizards,F,2215.0,87,1610.5,165,2688.5,78,32.6,26.4,38.4,68,61,70,3,3,0
 200768,Kyle Lowry,Miami Heat,G,2280.0,77,3098.5,36,3253.5,50,49.6,53.4,50.1,46,58,65,40,33,0
@@ -316,9 +316,9 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 202681,Kyrie Irving,Brooklyn Nets,G,3452.0,22,1296.0,210,4206.0,20,63.9,64.8,62.8,54,20,67,80,88,0
 200746,LaMarcus Aldridge,Brooklyn Nets,C-F,872.5,254,2727.5,45,4641.5,16,33.6,51.5,57.3,26,53,81,51,70,0
 1629013,Landry Shamet,Phoenix Suns,G,1172.5,204,1027.5,243,1513.0,192,19.2,19.4,19.2,61,53,79,0,0,0
-204038,Langston Galloway,Phoenix Suns,G,382.5,324,1483.5,181,1407.5,205,9.6,22.5,17.6,40,66,80,0,0,0
-1626204,Larry Nance Jr.,Cleveland Cavaliers,F-C,1204.5,198,1902.5,118,2616.0,85,34.4,34.0,39.0,35,56,67,3,3,0
-1628374,Lauri Markkanen,Chicago Bulls,F-C,1464.5,167,1642.0,159,2351.5,101,28.7,32.8,45.2,51,50,52,27,63,0
+204038,Langston Galloway,Golden State Warriors,G,382.5,324,1483.5,181,1407.5,205,9.6,22.5,17.6,40,66,80,0,0,0
+1626204,Larry Nance Jr.,Portland Trail Blazers,F-C,1204.5,198,1902.5,118,2616.0,85,34.4,34.0,39.0,35,56,67,3,3,0
+1628374,Lauri Markkanen,Cleveland Cavaliers,F-C,1464.5,167,1642.0,159,2351.5,101,28.7,32.8,45.2,51,50,52,27,63,0
 2544,LeBron James,Los Angeles Lakers,F,3010.5,39,5162.5,2,4156.5,21,66.9,77.1,75.6,45,67,55,200,165,0
 1629022,Lonnie Walker IV,San Antonio Spurs,G-F,1346.0,181,935.0,257,122.5,367,22.4,15.3,7.2,60,61,17,0,0,0
 1628366,Lonzo Ball,Chicago Bulls,G,2350.5,70,2714.0,46,1671.0,176,42.7,43.1,35.6,55,63,47,49,4,0
@@ -342,18 +342,18 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1628365,Markelle Fultz,Orlando Magic,G,282.0,346,2496.5,61,473.5,323,35.2,34.7,24.9,8,72,19,30,0,0
 202693,Markieff Morris,Miami Heat,F,1078.5,219,1248.0,213,1370.0,208,17.7,21.5,23.6,61,58,58,0,0,0
 1629741,Marko Guduric,Memphis Grizzlies,G,0.0,416,421.0,352,0.0,389,0.0,9.6,0.0,0,44,0,0,0,0
-1627737,Marquese Chriss,Golden State Warriors,F,40.0,401,1873.0,124,493.5,319,20.0,31.7,11.5,2,59,43,1,0,0
+1627737,Marquese Chriss,Portland Trail Blazers,F,40.0,401,1873.0,124,493.5,319,20.0,31.7,11.5,2,59,43,1,0,0
 1628963,Marvin Bagley III,Sacramento Kings,F,1539.0,158,473.0,338,2446.0,93,35.8,36.4,39.5,43,13,62,15,57,0
 101107,Marvin Williams,Milwaukee Bucks,F,0.0,416,999.0,248,2148.0,123,0.0,17.2,28.6,0,58,75,0,0,0
 203486,Mason Plumlee,Charlotte Hornets,F-C,2351.5,69,1557.0,170,2586.5,87,42.0,25.5,31.5,56,61,82,0,0,0
 1629680,Matisse Thybulle,Philadelphia 76ers,G-F,1176.0,203,1120.0,233,0.0,389,18.1,17.2,0.0,65,65,0,0,0,0
 1629760,Matt Mooney,Cleveland Cavaliers,G,0.0,416,16.5,471,0.0,389,0.0,4.1,0.0,0,4,0,0,0,0
-1629744,Matt Thomas,Utah Jazz,G,263.5,351,424.0,351,0.0,389,5.9,10.3,0.0,45,41,0,0,0,0
+1629744,Matt Thomas,Chicago Bulls,G,263.5,351,424.0,351,0.0,389,5.9,10.3,0.0,45,41,0,0,0,0
 203521,Matthew Dellavedova,Cleveland Cavaliers,G,210.5,365,716.0,294,823.5,284,16.2,12.6,17.2,13,57,48,0,0,0
 203090,Maurice Harkless,Sacramento Kings,F-G,591.5,297,1172.5,227,1520.0,189,16.0,18.9,25.3,37,62,60,0,0,0
 1629622,Max Strus,Miami Heat,G-F,448.5,312,9.5,475,0.0,389,11.5,4.8,0.0,39,2,0,0,0,0
 1628467,Maxi Kleber,Dallas Mavericks,F,1116.5,213,1971.5,111,1605.5,184,22.3,26.6,22.6,50,74,71,0,0,0
-1628982,Melvin Frazier Jr.,None,None,0.0,416,101.5,426,26.0,387,0.0,5.3,2.6,0,19,10,0,0,0
+1628982,Melvin Frazier Jr.,Oklahoma City Thunder,G-F,0.0,416,101.5,426,26.0,387,0.0,5.3,2.6,0,19,10,0,0,0
 203086,Meyers Leonard,Miami Heat,F-C,21.5,408,921.0,261,1015.5,262,7.2,18.1,16.6,3,51,61,0,4,0
 1629662,Mfiondu Kabengele,Cleveland Cavaliers,F-C,277.5,348,87.0,430,0.0,389,7.1,7.2,0.0,39,12,0,0,0,0
 203487,Michael Carter-Williams,Orlando Magic,G,855.5,260,1038.5,241,510.0,316,27.6,23.1,18.2,31,45,28,0,0,0
@@ -398,20 +398,20 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1628408,PJ Dozier,Denver Nuggets,G-F,1044.5,227,461.5,344,75.0,374,20.9,15.9,12.5,50,29,6,0,0,0
 1627783,Pascal Siakam,Toronto Raptors,F,3019.5,37,3161.0,33,3609.0,38,53.9,52.7,45.1,56,60,80,150,52,0
 1626192,Pat Connaughton,Milwaukee Bucks,G,1407.5,177,1200.5,220,1347.0,214,20.4,17.9,22.1,69,67,61,0,0,0
-201976,Patrick Beverley,Memphis Grizzlies,G,850.0,261,1503.5,179,2284.0,109,23.0,29.5,29.3,37,51,78,0,0,0
+201976,Patrick Beverley,Minnesota Timberwolves,G,850.0,261,1503.5,179,2284.0,109,23.0,29.5,29.3,37,51,78,0,0,0
 1627775,Patrick McCaw,Toronto Raptors,G,28.0,407,613.5,309,270.0,346,5.6,16.6,9.3,5,37,29,0,0,0
-202335,Patrick Patterson,LA Clippers,F,485.5,307,683.0,299,610.5,303,12.8,11.6,9.7,38,59,63,0,0,0
+202335,Patrick Patterson,Portland Trail Blazers,F,485.5,307,683.0,299,610.5,303,12.8,11.6,9.7,38,59,63,0,0,0
 201988,Patty Mills,Brooklyn Nets,G,1538.5,159,1554.5,171,1936.0,148,22.6,23.6,23.6,68,66,82,0,0,0
 202331,Paul George,LA Clippers,F,2923.0,42,2297.0,78,5022.5,9,54.1,47.9,65.2,54,48,77,104,97,0
-200794,Paul Millsap,Denver Nuggets,F,1505.5,160,1618.0,162,2684.0,79,26.9,31.7,38.3,56,51,70,3,2,0
-1628778,Paul Watson,Toronto Raptors,G,263.5,351,89.5,429,0.0,389,9.8,9.0,0.0,27,10,0,0,0,0
-1626188,Quinn Cook,Cleveland Cavaliers,G,172.5,369,469.5,341,1167.0,245,7.5,10.7,15.8,23,44,74,0,0,0
-1629683,Quinndary Weatherspoon,San Antonio Spurs,G,110.0,380,51.0,442,0.0,389,5.5,4.6,0.0,20,11,0,0,0,0
+200794,Paul Millsap,Brooklyn Nets,F,1505.5,160,1618.0,162,2684.0,79,26.9,31.7,38.3,56,51,70,3,2,0
+1628778,Paul Watson,Oklahoma City Thunder,G,263.5,351,89.5,429,0.0,389,9.8,9.0,0.0,27,10,0,0,0,0
+1626188,Quinn Cook,Portland Trail Blazers,G,172.5,369,469.5,341,1167.0,245,7.5,10.7,15.8,23,44,74,0,0,0
+1629683,Quinndary Weatherspoon,Golden State Warriors,G,110.0,380,51.0,442,0.0,389,5.5,4.6,0.0,20,11,0,0,0,0
 1629628,RJ Barrett,New York Knicks,F-G,2803.0,49,1740.0,146,0.0,389,38.9,31.1,0.0,72,56,0,17,11,0
-200765,Rajon Rondo,Memphis Grizzlies,G,936.0,244,1188.5,225,1858.0,155,20.8,24.8,40.4,45,48,46,0,1,0
+200765,Rajon Rondo,Los Angeles Lakers,G,936.0,244,1188.5,225,1858.0,155,20.8,24.8,40.4,45,48,46,0,1,0
 203526,Raul Neto,Washington Wizards,G,1484.0,166,700.0,296,563.5,308,23.2,13.0,15.2,64,54,37,0,0,0
 1629034,Ray Spalding,Houston Rockets,F,12.5,411,0.0,481,203.5,354,6.2,0.0,14.5,2,0,14,0,0,0
-1629730,Rayjon Tucker,Philadelphia 76ers,G,72.0,391,110.5,422,0.0,389,5.1,5.5,0.0,14,20,0,0,0,0
+1629730,Rayjon Tucker,Milwaukee Bucks,G,72.0,391,110.5,422,0.0,389,5.1,5.5,0.0,14,20,0,0,0,0
 203493,Reggie Bullock,Dallas Mavericks,G-F,1589.0,148,543.5,324,1515.5,191,24.4,18.7,24.1,65,29,63,0,0,0
 202704,Reggie Jackson,LA Clippers,G,1748.0,130,897.0,265,2756.0,75,26.1,28.9,33.6,67,31,82,0,0,0
 1626158,Richaun Holmes,Sacramento Kings,F,2822.5,47,1810.0,136,1858.0,155,46.3,41.1,26.5,61,44,70,11,0,0
@@ -430,30 +430,30 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1629060,Rui Hachimura,Washington Wizards,F,1747.5,131,1581.0,167,0.0,389,30.7,32.9,0.0,57,48,0,5,0,0
 201566,Russell Westbrook,Los Angeles Lakers,G,5442.5,2,3899.0,12,5936.0,2,83.7,68.4,81.3,65,57,73,196,160,0
 201583,Ryan Anderson,Houston Rockets,F,0.0,416,17.5,470,175.5,357,0.0,8.8,7.0,0,2,25,0,0,0
-1627853,Ryan Arcidiacono,Chicago Bulls,G,401.5,319,740.0,288,1763.5,164,9.1,12.8,21.8,44,58,81,0,0,0
+1627853,Ryan Arcidiacono,Boston Celtics,G,401.5,319,740.0,288,1763.5,164,9.1,12.8,21.8,44,58,81,0,0,0
 1629151,Ryan Broekhoff,Philadelphia 76ers,G-F,0.0,416,187.5,404,362.0,336,0.0,11.0,8.6,0,17,42,0,0,0
-1629635,Sekou Doumbouya,Detroit Pistons,F,672.0,287,537.5,327,0.0,389,12.0,14.1,0.0,56,38,0,0,0,0
+1629635,Sekou Doumbouya,Los Angeles Lakers,F,672.0,287,537.5,327,0.0,389,12.0,14.1,0.0,56,38,0,0,0,0
 1628400,Semi Ojeleye,Milwaukee Bucks,F,623.0,292,627.0,308,418.5,331,11.1,9.1,7.5,56,69,56,0,0,0
 201586,Serge Ibaka,LA Clippers,F,1371.0,179,2245.5,83,3132.5,56,33.4,40.8,42.3,41,55,74,19,4,0
 203552,Seth Curry,Philadelphia 76ers,G,1598.0,147,1670.5,155,1180.5,243,28.0,26.1,16.0,57,64,74,8,0,0
 203894,Shabazz Napier,Washington Wizards,G,0.0,416,1633.5,160,1236.0,235,0.0,29.2,22.1,0,56,56,0,0,0
-1628983,Shai Gilgeous-Alexander,Oklahoma City Thunder,G-F,1907.0,110,3190.0,32,2438.5,95,54.5,45.6,29.7,35,70,82,93,2,0
+1628983,Shai Gilgeous-Alexander,Oklahoma City Thunder,G,1907.0,110,3190.0,32,2438.5,95,54.5,45.6,29.7,35,70,82,93,2,0
 1629003,Shake Milton,Philadelphia 76ers,G-F,1793.0,126,901.5,263,245.0,349,28.5,22.5,12.2,63,40,20,0,0,0
 1629044,Shamorie Ponds,Toronto Raptors,G,0.0,416,24.0,464,0.0,389,0.0,6.0,0.0,0,4,0,0,0,0
-1627885,Shaquille Harrison,Denver Nuggets,G,256.0,353,678.0,300,1520.5,188,7.5,15.8,20.8,34,43,73,0,0,0
+1627885,Shaquille Harrison,Philadelphia 76ers,G,256.0,353,678.0,300,1520.5,188,7.5,15.8,20.8,34,43,73,0,0,0
 1627746,Skal Labissiere,Atlanta Hawks,F-C,0.0,416,719.0,292,204.0,353,0.0,21.8,9.3,0,33,22,0,0,0
 203524,Solomon Hill,Atlanta Hawks,F,943.5,242,955.0,255,594.0,305,13.3,16.2,13.5,71,59,44,0,0,0
 203915,Spencer Dinwiddie,Washington Wizards,G,62.0,393,3043.0,38,2444.5,94,20.7,47.5,35.9,3,64,68,9,0,0
-1626169,Stanley Johnson,Toronto Raptors,F-G,888.5,251,172.0,407,1124.5,253,14.6,6.9,17.0,61,25,66,0,0,0
+1626169,Stanley Johnson,Chicago Bulls,F-G,888.5,251,172.0,407,1124.5,253,14.6,6.9,17.0,61,25,66,0,0,0
 1629742,Stanton Kidd,Utah Jazz,F,0.0,416,-0.5,482,0.0,389,0.0,-0.1,0.0,0,4,0,0,0,0
 201939,Stephen Curry,Golden State Warriors,G,4116.5,9,249.0,390,4059.0,25,65.3,49.8,58.8,63,5,69,157,181,0
 1628425,Sterling Brown,Dallas Mavericks,G-F,1129.0,211,720.5,291,958.0,268,22.1,13.9,16.5,51,52,58,0,0,0
 203500,Steven Adams,Memphis Grizzlies,C,1955.5,107,2635.5,50,3800.5,32,33.7,41.8,47.5,58,63,80,17,30,0
-1629004,Svi Mykhailiuk,Oklahoma City Thunder,G-F,1222.5,195,1088.5,235,297.5,342,18.5,19.4,7.1,66,56,42,0,0,0
+1629004,Svi Mykhailiuk,Toronto Raptors,G-F,1222.5,195,1088.5,235,297.5,342,18.5,19.4,7.1,66,56,42,0,0,0
 204456,T.J. McConnell,Indiana Pacers,G,2623.5,57,1842.0,129,1694.0,173,38.0,25.9,22.3,69,71,76,0,0,0
 203933,T.J. Warren,Indiana Pacers,F,116.5,378,2801.5,43,1655.0,178,29.1,41.8,38.5,4,67,43,34,2,0
 1628388,TJ Leaf,None,None,31.5,405,267.0,384,648.5,301,4.5,9.5,11.2,7,28,58,0,0,0
-1629605,Tacko Fall,Boston Celtics,C,218.5,364,69.0,437,0.0,389,11.5,9.9,0.0,19,7,0,0,0,0
+1629605,Tacko Fall,Cleveland Cavaliers,C,218.5,364,69.0,437,0.0,389,11.5,9.9,0.0,19,7,0,0,0,0
 201959,Taj Gibson,New York Knicks,F,1053.5,225,1197.0,221,2276.5,110,23.4,19.3,32.5,45,62,70,0,0,0
 1629659,Talen Horton-Tucker,Los Angeles Lakers,G,1563.5,155,86.5,431,0.0,389,24.1,14.4,0.0,65,6,0,0,0,0
 1629745,Tariq Owens,Phoenix Suns,F,0.0,416,11.5,474,0.0,389,0.0,3.8,0.0,0,3,0,0,0,0
@@ -466,19 +466,19 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 200757,Thabo Sefolosha,Houston Rockets,F-G,0.0,416,381.5,361,580.0,307,0.0,9.3,11.6,0,41,50,0,0,0
 201152,Thaddeus Young,San Antonio Spurs,F,2738.5,52,1795.5,138,3104.5,57,40.3,28.1,38.3,68,64,81,0,2,0
 203648,Thanasis Antetokounmpo,Milwaukee Bucks,F,551.0,303,151.0,415,0.0,389,9.7,7.6,0.0,57,20,0,7,0,0
-1629033,Theo Pinson,New York Knicks,G-F,1.0,415,327.0,368,172.0,359,0.1,9.9,9.6,17,33,18,0,0,0
+1629033,Theo Pinson,Boston Celtics,G-F,1.0,415,327.0,368,172.0,359,0.1,9.9,9.6,17,33,18,0,0,0
 1628418,Thomas Bryant,Washington Wizards,C-F,371.0,326,1835.5,130,2323.5,105,37.1,39.9,32.3,10,46,72,21,27,0
 1627748,Thon Maker,Cleveland Cavaliers,F-C,96.5,383,879.0,266,974.5,266,12.1,14.6,15.2,8,60,64,0,0,0
 204025,Tim Frazier,Memphis Grizzlies,G,49.0,396,385.5,359,1257.5,229,9.8,14.3,21.3,5,27,59,0,0,0
 203501,Tim Hardaway Jr.,Dallas Mavericks,G-F,2195.5,90,2159.0,92,2212.5,116,31.4,30.4,34.0,70,71,65,25,0,0
-1627789,Timothe Luwawu-Cabarrot,Brooklyn Nets,G-F,825.0,264,742.5,287,522.5,315,14.2,15.8,10.4,58,47,50,0,0,0
+1627789,Timothe Luwawu-Cabarrot,Atlanta Hawks,G-F,825.0,264,742.5,287,522.5,315,14.2,15.8,10.4,58,47,50,0,0,0
 202699,Tobias Harris,Philadelphia 76ers,F,3089.0,35,3367.0,25,3824.5,31,49.8,46.8,46.6,62,72,82,40,30,0
 203107,Tomas Satoransky,New Orleans Pelicans,G,1495.5,163,2137.5,96,2520.5,89,25.8,32.9,31.5,58,65,80,1,1,0
 1628396,Tony Bradley,Chicago Bulls,C-F,1018.0,231,1012.0,246,69.5,376,24.2,17.4,23.2,42,58,3,0,0,0
 203503,Tony Snell,Portland Trail Blazers,G,702.0,284,1196.5,222,1085.0,257,14.9,20.3,14.7,47,59,74,0,0,0
 1628470,Torrey Craig,Indiana Pacers,F,928.5,246,983.5,251,1339.5,216,18.6,17.0,17.9,50,58,75,0,0,0
 1629027,Trae Young,Atlanta Hawks,G,3961.5,11,4106.5,9,4067.5,24,62.9,68.4,50.2,63,60,81,170,90,0
-1629682,Tremont Waters,Boston Celtics,G,312.0,338,101.5,426,0.0,389,12.0,9.2,0.0,26,11,0,0,0,0
+1629682,Tremont Waters,Milwaukee Bucks,G,312.0,338,101.5,426,0.0,389,12.0,9.2,0.0,26,11,0,0,0,0
 1626203,Treveon Graham,Milwaukee Bucks,G-F,0.0,416,645.0,304,464.5,324,0.0,11.7,13.3,0,55,35,0,0,0
 2772,Trevor Ariza,Los Angeles Lakers,F,816.5,265,1244.5,216,2377.5,96,27.2,23.5,34.5,30,53,69,0,0,0
 203504,Trey Burke,Dallas Mavericks,G,900.5,250,633.0,306,1438.0,202,14.5,19.2,24.8,62,33,58,0,0,0
@@ -487,7 +487,7 @@ id,name,team,position,y1_points,y1_rank,y2_points,y2_rank,y3_points,y3_rank,y1_a
 1628972,Troy Brown Jr.,Chicago Bulls,G-F,425.0,314,2081.5,104,735.0,291,12.5,30.2,14.1,34,69,52,0,0,0
 203584,Troy Daniels,Denver Nuggets,G,0.0,416,383.5,360,622.0,302,0.0,8.2,12.2,0,47,51,0,0,0
 1629660,Ty Jerome,Oklahoma City Thunder,G-F,888.0,252,305.5,374,0.0,389,26.9,9.9,0.0,33,31,0,0,0,0
-1629076,Tyler Cook,Detroit Pistons,F,398.0,321,61.5,440,0.0,389,12.4,4.7,0.0,32,13,0,0,0,0
+1629076,Tyler Cook,Chicago Bulls,F,398.0,321,61.5,440,0.0,389,12.4,4.7,0.0,32,13,0,0,0,0
 1629639,Tyler Herro,Miami Heat,G,1901.0,111,1546.0,172,0.0,389,35.2,28.1,0.0,54,55,0,38,2,0
 204020,Tyler Johnson,Brooklyn Nets,G,484.5,308,662.5,302,1564.5,186,12.4,17.0,27.4,39,39,57,0,0,0
 1627820,Tyrone Wallace,Atlanta Hawks,G,0.0,416,105.0,424,536.5,310,0.0,7.5,8.7,0,14,62,0,0,0

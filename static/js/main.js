@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
   var m_table = $('#mtable').DataTable({
     "ajax": {

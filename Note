@@ -20,3 +20,4 @@ python manage.py runserver
 sass main.scss static/css/main.css
 python manage.py makemigrations
 python manage.py migrate
+python csvToJson.py

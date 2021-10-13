@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-fi@+vsu5tn9fgf(6f@%6vkxt39)xv(6_el6$^g+ev@8z^b0x6-
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+# when running in localhost, change debug = true
 
 ALLOWED_HOSTS = ['127.0.0.1', 'nbafantasyweb.herokuapp.com']
 
