@@ -8,17 +8,15 @@ set settings.py template to base directory 'templates' folder
 
 data is truncated, need to delete headers in csv
 
-multi_filter on datatable.net
 
-styling
-
-select players and sum their points (checkboxes) done
-double column sorting
-column filtering done
-
-plots
-click into player personal season day to day points
 
 /clear repositry history
 java -jar bfg-1.14.0.jar --replace-text passwords.txt
 git push --force
+
+
+/general
+python manage.py runserver
+sass main.scss static/css/main.css
+python manage.py makemigrations
+python manage.py migrate
