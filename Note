@@ -19,4 +19,6 @@ column filtering done
 plots
 click into player personal season day to day points
 
-
+/clear repositry history
+java -jar bfg-1.14.0.jar --replace-text passwords.txt
+git push --force
