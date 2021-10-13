@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Rextremistz/nbafantasyweb/issues"
   },
-  "homepage": "https://github.com/Rextremistz/nbafantasyweb#readme",
+  "homepage": "https://github.com/Rextremistz/nbafantasyweb",
   "dependencies": {
     "bootstrap": "^5.1.0"
   }
