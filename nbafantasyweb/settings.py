@@ -126,7 +126,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 if sys.argv[1] != 'runserver':
-    STATIC_ROOT = os.path.join(BASE_DIR, "static")
+    STATIC_ROOT = os.path.join(BASE_DIR, 'var', "static")
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 # Default primary key field type
