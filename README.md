@@ -25,7 +25,7 @@
 * generate csv in a datatable form and save in Frontend directory for csvToJson.py to use
 
 
-<h1>Run NBA-Fantasy-Frontend</h1>
+<h1>Run NBA-Fantasy-Frontend (nbafantasyweb)</h1>
 
 <h2>cvsToJson.py</h2>
 
