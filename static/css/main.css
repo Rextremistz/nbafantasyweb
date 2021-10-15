@@ -65,14 +65,14 @@ body {
 }
 
 #mtable thead tr th {
-  font-size: 0.1em;
+  font-size: 10px;
   text-align: left;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #mtable thead th.sorting {
-  font-size: 0.1em;
+  font-size: 10px;
   vertical-align: middle;
   z-index: 0;
   white-space: nowrap;
@@ -180,7 +180,7 @@ table.dataTable tbody tr.even.active td.id_col {
 #mtable_filter {
   float: left;
   padding-left: 50px;
-  font-size: 0.2em;
+  font-size: 10px;
 }
 
 #mtable_length {
@@ -188,20 +188,20 @@ table.dataTable tbody tr.even.active td.id_col {
   padding-left: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 0.2em;
+  font-size: 10px;
 }
 
 #mtable_info {
-  font-size: 0.2em;
+  font-size: 10px;
 }
 
 #mtable_paginate {
   float: left;
-  font-size: 0.2em;
+  font-size: 10px;
 }
 
 #mtable tbody tr td {
-  font-size: 0.1em;
+  font-size: 10px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -209,7 +209,7 @@ table.dataTable tbody tr.even.active td.id_col {
 }
 
 .form-control.my-1 {
-  font-size: 0.2em;
+  font-size: 10px;
 }
 
 #mtable.dataTable > thead > tr > th[class*=sort]:after,
@@ -322,7 +322,7 @@ table.dataTable tbody tr.even.active td.id_col {
 .sidebar #stable thead tr th,
 .sidebar #stable tbody tr td,
 .sidebar #stable tfoot tr td {
-  font-size: 0.1em;
+  font-size: 10px;
   vertical-align: middle;
   white-space: nowrap;
   opacity: 0;
@@ -332,7 +332,7 @@ table.dataTable tbody tr.even.active td.id_col {
 .sidebar.open #stable thead tr th,
 .sidebar #stable tbody tr td,
 .sidebar.open #stable tfoot tr td {
-  font-size: 0.1em;
+  font-size: 10px;
   vertical-align: middle;
   white-space: nowrap;
   opacity: 1;
@@ -344,7 +344,7 @@ table.dataTable tbody tr.even.active td.id_col {
 }
 
 #stable tbody tr td.s_data {
-  font-size: 0.1em;
+  font-size: 10px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -353,14 +353,14 @@ table.dataTable tbody tr.even.active td.id_col {
 }
 
 .sidebar #stable tbody tr td.s_img {
-  font-size: 0.1em;
+  font-size: 10px;
   text-align: center;
   opacity: 1;
   cursor: pointer;
 }
 
 .sidebar.open #stable tbody tr td.s_data {
-  font-size: 0.1em;
+  font-size: 10px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -368,12 +368,12 @@ table.dataTable tbody tr.even.active td.id_col {
 }
 
 .sidebar #stable tfoot tr {
-  font-size: 0.1em;
+  font-size: 10px;
   opacity: 0;
 }
 
 .sidebar.open #stable tfoot tr {
-  font-size: 0.1em;
+  font-size: 10px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;

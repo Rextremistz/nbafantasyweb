@@ -68,14 +68,14 @@ body{
 
 //header
 #mtable thead tr th {
-    font-size:0.1em;
+    font-size:10px;
     text-align: left;
     padding-top: 10px; padding-bottom: 10px ;
 }
 
 //sorting header
 #mtable thead th.sorting {
-    font-size:0.1em;
+    font-size:10px;
     vertical-align: middle;
     z-index:0;
     white-space: nowrap;
@@ -190,7 +190,7 @@ text-align: center;
 #mtable_filter { //search bar appearance
     float: left;
     padding-left: 50px;
-    font-size: 0.2em;
+    font-size: 10px;
 }
 
 #mtable_length { //show how many data
@@ -198,23 +198,23 @@ text-align: center;
     padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 0.2em;
+    font-size: 10px;
 }
 
 #mtable_info { //show x of total data
-    font-size: 0.2em;
+    font-size: 10px;
 }
 
 #mtable_paginate { //pagination
     float: left;
-    font-size: 0.2em;
+    font-size: 10px;
 }
 
 
 
 //data
 #mtable tbody tr td {
-    font-size:0.1em;
+    font-size:10px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow:ellipsis;
@@ -223,7 +223,7 @@ text-align: center;
 
 // selectable list
 .form-control.my-1 {
-    font-size:0.2em;
+    font-size:10px;
 }
 
 //remove sorting icon
@@ -340,7 +340,7 @@ text-align: center;
 .sidebar #stable thead tr th,
 .sidebar #stable tbody tr td,
 .sidebar #stable tfoot tr td {
-    font-size:0.1em;
+    font-size:10px;
     vertical-align: middle;
     white-space: nowrap;
     opacity:0;
@@ -350,7 +350,7 @@ text-align: center;
 .sidebar.open #stable thead tr th,
 .sidebar #stable tbody tr td,
 .sidebar.open #stable tfoot tr td {
-    font-size:0.1em;
+    font-size:10px;
     vertical-align: middle;
     white-space: nowrap;
     opacity:1;
@@ -362,7 +362,7 @@ text-align: center;
 }
 
 #stable tbody tr td.s_data{
-    font-size:0.1em;
+    font-size:10px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow:ellipsis;
@@ -372,7 +372,7 @@ text-align: center;
 
 
 .sidebar #stable tbody tr td.s_img{
-    font-size:0.1em;
+    font-size:10px;
     text-align: center;
     opacity:1;
     cursor: pointer;
@@ -380,7 +380,7 @@ text-align: center;
 
 //data in opened sidebar
 .sidebar.open #stable tbody tr td.s_data {
-    font-size:0.1em;
+    font-size:10px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow:ellipsis;
@@ -389,12 +389,12 @@ text-align: center;
 
 //footer in unopened sidebar
 .sidebar #stable tfoot tr {
-    font-size:0.1em;
+    font-size:10px;
     opacity:0;
 }
 
 .sidebar.open #stable tfoot tr {
-    font-size:0.1em;
+    font-size:10px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow:ellipsis;
