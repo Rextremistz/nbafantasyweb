@@ -82,8 +82,32 @@ $(document).ready(function () {
         });
       })
 
+      // add refresh button
       $('<button id="refresh_btn">Refresh</button>').appendTo('div.toolbar');
 
+
+      //initial ajax
+
+      var rows = m_table.rows({order:'applied'}, 0).indexes();
+      var player_id = m_table.cell(rows, 0).data();
+      var player_name = m_table.cell(rows, 1).data();
+      var player_team = m_table.cell(rows, 2).data();
+      var player_position = m_table.cell(rows, 3).data();
+
+      $.ajax({
+        url: 'chart',
+        type: 'get',
+        data: {
+          'player_id': player_id,
+          'player_name': player_name,
+          'player_team': player_team,
+          'player_position': player_position,
+        },
+        success: function(response) {
+          $('#ajaxSection').html(response);
+        },
+
+      })
     }
   });
 
