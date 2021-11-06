@@ -22,7 +22,7 @@
 <h2>adjustcsvforsql.py</h2>
 
 * set recent 3 years
-* generate csv in a datatable form and save in Frontend directory for csvToJson.py to use
+* generate csv in a datatable layout and save in Frontend directory for csvToJson.py to use
 
 
 <h1>Run NBA-Fantasy-Frontend (nbafantasyweb)</h1>
