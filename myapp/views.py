@@ -10,11 +10,11 @@ def index(request):
     players = Player.objects.all()
 
     y1 = Season()
-    y1.season = "2020-21"
+    y1.season = "2021-22"
     y2 = Season()
-    y2.season = "2019-20"
+    y2.season = "2020-21"
     y3 = Season()
-    y3.season = "2018-19"
+    y3.season = "2019-20"
 
     return render(request, 'index.html', {'players': players, 'y1': y1, 'y2': y2, 'y3': y3})
 
