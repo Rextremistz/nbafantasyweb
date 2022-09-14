@@ -28,9 +28,9 @@ def get_plot(player_id):
 
     raw_df = pd.read_csv("./fantasy_raw.csv")
 
-    last_season = '2020-2021'
-    season_start_date = '2020-12-22'
-    season_end_date = '2021-05-16'
+    last_season = '2021-2022'
+    season_start_date = '2021-10-19'
+    season_end_date = '2022-04-11'
 
     plot_columns = ['id', 'name', 'game_date', 'fp', 'season']
     filtered_plot_df = raw_df.loc[raw_df['season'] ==
