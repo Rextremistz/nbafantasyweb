@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-fi@+vsu5tn9fgf(6f@%6vkxt39)xv(6_el6$^g+ev@8z^b0x6-
 DEBUG = False
 # when running in localhost, change debug = true
 
-ALLOWED_HOSTS = ['127.0.0.1', 'nbafantasyweb.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'nbafantasyweb.herokuapp.com', 'https://chiangyenju.github.io/nbafantasyweb/']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp',
+    'post_request_task',
 ]
 
 MIDDLEWARE = [
