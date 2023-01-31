@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-fi@+vsu5tn9fgf(6f@%6vkxt39)xv(6_el6$^g+ev@8z^b0x6-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 # when running in localhost, change debug = true
 
 ALLOWED_HOSTS = ['127.0.0.1', 'nbafantasyweb.herokuapp.com', 'https://chiangyenju.github.io/nbafantasyweb/']
@@ -130,7 +130,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 # if sys.argv[1] != 'runserver':
 #     STATIC_ROOT = os.path.join(BASE_DIR, 'var', "static")
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'var','static'),)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
