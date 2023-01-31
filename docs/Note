@@ -1,0 +1,23 @@
+*Set urls*
+set urls.py view in myapp.urls
+create index.html template in templates folder
+render request in myapp.views.py to templates.index.html
+include myapp.urls in nbafantasyweb.urls.py
+set settings.py template to base directory 'templates' folder
+
+
+data is truncated, need to delete headers in csv
+
+
+
+/clear repositry history
+java -jar bfg-1.14.0.jar --replace-text passwords.txt
+git push --force
+
+
+/general
+python manage.py runserver
+sass main.scss static/css/main.css
+python manage.py makemigrations
+python manage.py migrate
+python csvToJson.py

@@ -1,0 +1,1 @@
+web: gunicorn nbafantasyweb.wsgi --log-file -

@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    padding:10px;
+}
+
+.main_section {
+    // border: 5px solid yellow;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.data_section {
+    border-right: 0.5px solid #dee2e6;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 25%;
+    margin-right: 10px;
+}
+
+.data_section .ajaxSection {
+    display: grid;
+}
+
+#refresh_btn {
+    display: inline-block;
+    padding: .3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color: #264653;
+    background-color:white;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+#refresh_btn:hover{
+    background-color:#264653;
+    color: white;
+}
+
+
+.main_table {
+    // border: 5px solid green;
+    margin-right:70px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 70%;
+  }
+
+#mtable{
+    table-layout: fixed; // ***********add this
+}
+
+//search box
+#mtable_filter input {
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+}
+
+//header
+#mtable thead tr th {
+    font-size:10px;
+    text-align: left;
+    padding-top: 10px; padding-bottom: 10px ;
+}
+
+//sorting header
+#mtable thead th.sorting {
+    font-size:10px;
+    vertical-align: middle;
+    z-index:0;
+    white-space: nowrap;
+}
+
+.name_col{
+    text-align: left;
+}
+
+.team_col{
+    text-align: left;
+}
+
+#mtable.dataTable tbody tr td.position_col{
+    text-align: left;
+    border-right: 0.5px solid #dee2e6;
+}
+
+
+table.dataTable tbody tr.odd.active td.id_col {
+    background-color:#acbad4
+   }
+
+table.dataTable tbody tr.even.active td.id_col {
+    background-color:#acbad5
+   }
+
+//make transparent when clicking
+#mtable.dataTable tbody tr.odd.active td.id_col {
+    background-color: #264653;
+}
+#mtable.dataTable tbody tr.even.active td.id_col {
+    background-color: #264653;
+}
+
+
+
+#mtable.dataTable tbody tr td.y1_points_col,
+#mtable.dataTable tbody tr td.y2_points_col,
+#mtable.dataTable tbody tr td.y3_points_col {
+    background-color: transparent;
+}
+
+#mtable.dataTable tbody tr td.y3_rank_col {
+    background-color: transparent;
+    border-right: 0.5px solid #dee2e6;
+}
+
+
+#mtable.dataTable tbody tr td.y3_average_col {
+    background-color: transparent;
+    border-right: 0.5px solid #dee2e6;
+}
+
+#mtable.dataTable tbody tr td.y3_games_col {
+    background-color: transparent;
+    border-right: 0.5px solid #dee2e6;
+}
+
+#mtable.dataTable tbody tr td.y3_price_col {
+    background-color: transparent;
+    border-right: 0.5px solid #dee2e6;
+}
+
+
+#mtable.dataTable tbody tr:hover > td.id_col,
+#mtable.dataTable tbody tr:hover > td.name_col,
+#mtable.dataTable tbody tr:hover > td.team_col,
+#mtable.dataTable tbody tr:hover > td.position_col{
+    background-color:#2a9d8f ;
+}
+
+
+.add_container{
+    position: relative;
+    width: 100%;
+}
+
+.png_image{
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+#mtable.dataTable tbody tr:hover .overlay {
+opacity: 1;
+}
+
+.overlay_text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+right: 0;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+
+#mtable_filter { //search bar appearance
+    float: left;
+    padding-left: 50px;
+    font-size: 10px;
+}
+
+#mtable_length { //show how many data
+    float: left;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 10px;
+}
+
+#mtable_info { //show x of total data
+    font-size: 10px;
+}
+
+#mtable_paginate { //pagination
+    float: left;
+    font-size: 10px;
+}
+
+
+
+//data
+#mtable tbody tr td {
+    font-size:10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    cursor: pointer;
+}
+
+// selectable list
+.form-control.my-1 {
+    font-size:10px;
+}
+
+//remove sorting icon
+#mtable.dataTable > thead > tr > th[class*="sort"]:after,
+#mtable.dataTable > thead > tr > th[class*="sort"]:before
+{
+    content: "";
+}
+
+.sidebar{
+    position:fixed;
+    top:0;
+    right:0;
+    width:80px;
+    height:100%;
+    background-color: #264653;
+    padding: 6px 14px;
+    transition: all 0.5s ease;
+    opacity: 1;
+    z-index: 1;
+}
+
+.sidebar.open{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar .logo_details{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidebar .logo_details .logo_name {
+    height: 100%;
+    width: 300px;
+    color: #fff;
+    font-size: 10px;
+    margin: 20px 30px;
+    opacity: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar.open .logo_details .logo_name{
+    height: 100%;
+    width: 300px;
+    color: #fff;
+    transition: all 0.5s ease;
+    font-size: 10px;
+    margin: 20px 30px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar.open .logo_details .logo_name .logo_points,
+.sidebar.open .logo_details .logo_name .logo_lastyear{
+    font-size: 20px;
+    padding-bottom: 10px;
+    width:90px;
+}
+
+.sidebar.open .logo_details .logo_name .logo_price{
+    font-size: 20px;
+    padding-bottom: 10px;
+    width: 75px;
+}
+
+
+.sidebar #btn{
+    position: sticky;
+    color:#fff;
+    font-size: 30px;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    line-height: 75px;
+    transform: translateX(-15%);
+    cursor: pointer;
+}
+
+.sidebar .selected_table{
+    margin-top:15px;
+}
+
+.sidebar.open .selected_table{
+    margin-top:10px;
+    border: 5px solid #2a9d8f;
+    border-radius: 10px;
+}
+
+.sidebar .selected_table #stable{
+    color:#fff;
+
+}
+
+.sidebar.open .selected_table #stable{
+    table-layout: fixed;
+}
+
+.sidebar #stable thead tr{
+    background-color: inherit;
+}
+
+.sidebar.open #stable thead tr{
+    background-color: #2a9d8f;
+}
+
+.sidebar #stable thead tr th,
+.sidebar #stable tbody tr td,
+.sidebar #stable tfoot tr td {
+    font-size:10px;
+    vertical-align: middle;
+    white-space: nowrap;
+    opacity:0;
+    border: 0;
+}
+
+.sidebar.open #stable thead tr th,
+.sidebar #stable tbody tr td,
+.sidebar.open #stable tfoot tr td {
+    font-size:10px;
+    vertical-align: middle;
+    white-space: nowrap;
+    opacity:1;
+    border: 0;
+}
+
+#stable tbody tr.selected{
+    background: linear-gradient(#264653 97%, #2a9d8f);
+}
+
+#stable tbody tr td.s_data{
+    font-size:10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    opacity:0;
+    cursor: pointer;
+}
+
+
+.sidebar #stable tbody tr td.s_img{
+    font-size:10px;
+    text-align: center;
+    opacity:1;
+    cursor: pointer;
+}
+
+//data in opened sidebar
+.sidebar.open #stable tbody tr td.s_data {
+    font-size:10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    opacity:1;
+}
+
+//footer in unopened sidebar
+.sidebar #stable tfoot tr {
+    font-size:10px;
+    opacity:0;
+}
+
+.sidebar.open #stable tfoot tr {
+    font-size:10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    opacity:1;
+}
+
+@import "./node_modules/bootstrap/scss/bootstrap";
